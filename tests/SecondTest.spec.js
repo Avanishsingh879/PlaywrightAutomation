@@ -46,7 +46,7 @@ test('verifyAllTabs',async({page})=>{
   await page.waitForTimeout(2000);
     //const assert = require('assert');
     //const title = await page.title();
-    //assert.strictEqual(title, 'admin - My Home Page - Home - vtiger CRM 5 - Commercial Open Source CRM');
+    assert.strictEqual(title, 'admin - My Home Page - Home - vtiger CRM 5 - Commercial Open Source CRM');
     //await expect(page).toHaveTitle(/Playwright/);
     ///MouseHover
     
