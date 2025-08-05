@@ -1,0 +1,642 @@
+# Page snapshot
+
+```yaml
+- table:
+  - rowgroup:
+    - row "vtiger CRM Gmail Bookmarklet vtiger News Feedback My Preferences Help About Us Sign Out (admin)":
+      - cell "vtiger CRM":
+        - img "vtiger CRM"
+      - cell
+      - cell "Gmail Bookmarklet vtiger News Feedback My Preferences Help About Us Sign Out (admin)":
+        - table:
+          - rowgroup:
+            - row "Gmail Bookmarklet vtiger News Feedback My Preferences Help About Us Sign Out (admin)":
+              - cell "Gmail Bookmarklet":
+                - link "Gmail Bookmarklet":
+                  - /url: javascript:(function()%7Bvar%20doc=top.document;var%20bodyElement=document.body;doc.vtigerURL%20=%22http://localhost:8888/%22;var%20scriptElement=document.createElement(%22script%22);scriptElement.type=%22text/javascript%22;scriptElement.src=doc.vtigerURL+%22modules/Emails/GmailBookmarkletTrigger.js%22;bodyElement.appendChild(scriptElement);%7D)();
+              - cell "vtiger News":
+                - link "vtiger News":
+                  - /url: javascript:void(0);
+              - cell "Feedback":
+                - link "Feedback":
+                  - /url: javascript:void(0);
+              - cell "My Preferences":
+                - link "My Preferences":
+                  - /url: index.php?module=Users&action=DetailView&record=1&modechk=prefview
+              - cell "Help":
+                - link "Help":
+                  - /url: http://wiki.vtiger.com/index.php/Main_Page
+              - cell "About Us":
+                - link "About Us":
+                  - /url: javascript:;
+              - cell "Sign Out (admin)":
+                - link "Sign Out":
+                  - /url: index.php?module=Users&action=Logout
+                - text: (admin)
+- table:
+  - rowgroup:
+    - row "My Home Page Marketing Sales Support Analytics Inventory Tools Settings Quick Create... Search... Find":
+      - cell
+      - cell "My Home Page Marketing Sales Support Analytics Inventory Tools Settings Quick Create...":
+        - table:
+          - rowgroup:
+            - row "My Home Page Marketing Sales Support Analytics Inventory Tools Settings Quick Create...":
+              - cell:
+                - img
+              - cell "My Home Page":
+                - link "My Home Page":
+                  - /url: index.php?module=Home&action=index&parenttab=My Home Page
+                - img
+              - cell:
+                - img
+              - cell "Marketing":
+                - link "Marketing":
+                  - /url: index.php?module=Campaigns&action=index&parenttab=Marketing
+                - img
+              - cell:
+                - img
+              - cell "Sales":
+                - link "Sales":
+                  - /url: index.php?module=Leads&action=index&parenttab=Sales
+                - img
+              - cell:
+                - img
+              - cell "Support":
+                - link "Support":
+                  - /url: index.php?module=HelpDesk&action=index&parenttab=Support
+                - img
+              - cell:
+                - img
+              - cell "Analytics":
+                - link "Analytics":
+                  - /url: index.php?module=Reports&action=index&parenttab=Analytics
+                - img
+              - cell:
+                - img
+              - cell "Inventory":
+                - link "Inventory":
+                  - /url: index.php?module=Products&action=index&parenttab=Inventory
+                - img
+              - cell:
+                - img
+              - cell "Tools":
+                - link "Tools":
+                  - /url: index.php?module=Rss&action=index&parenttab=Tools
+                - img
+              - cell:
+                - img
+              - cell "Settings":
+                - link "Settings":
+                  - /url: index.php?module=Settings&action=index&parenttab=Settings
+                - img
+              - cell:
+                - img
+              - cell "Quick Create...":
+                - combobox:
+                  - option "Quick Create..." [selected]
+                  - option "New Account"
+                  - option "New Asset"
+                  - option "New To Do"
+                  - option "New Campaign"
+                  - option "New Comment"
+                  - option "New Contact"
+                  - option "New Document"
+                  - option "New Event"
+                  - option "New Ticket"
+                  - option "New Lead"
+                  - option "New Potential"
+                  - option "New PriceBook"
+                  - option "New Product"
+                  - option "New Project"
+                  - option "New Project Milestone"
+                  - option "New Project Task"
+                  - option "New Service Contract"
+                  - option "New Service"
+                  - option "New Vendor"
+      - cell "Search... Find":
+        - table:
+          - rowgroup:
+            - row "Search... Find":
+              - cell "Search...":
+                - link:
+                  - /url: javascript:void(0);
+                  - img
+                - textbox: Search...
+              - cell "Find":
+                - button "Find"
+- table:
+  - rowgroup:
+    - row "Home Calendar Webmail":
+      - cell "Home Calendar Webmail":
+        - table:
+          - rowgroup:
+            - row "Home Calendar Webmail":
+              - cell "Home":
+                - link "Home":
+                  - /url: index.php?module=Home&action=index&parenttab=My Home Page
+              - cell "Calendar":
+                - link "Calendar":
+                  - /url: index.php?module=Calendar&action=index&parenttab=My Home Page
+              - cell "Webmail":
+                - link "Webmail":
+                  - /url: index.php?module=Webmails&action=index&parenttab=My Home Page
+- table:
+  - rowgroup:
+    - row "Campaigns":
+      - cell "Campaigns":
+        - link "Campaigns":
+          - /url: index.php?module=Campaigns&action=index&parenttab=Marketing
+    - row "Accounts":
+      - cell "Accounts":
+        - link "Accounts":
+          - /url: index.php?module=Accounts&action=index&parenttab=Marketing
+    - row "Contacts":
+      - cell "Contacts":
+        - link "Contacts":
+          - /url: index.php?module=Contacts&action=index&parenttab=Marketing
+    - row "Webmail":
+      - cell "Webmail":
+        - link "Webmail":
+          - /url: index.php?module=Webmails&action=index&parenttab=Marketing
+    - row "Leads":
+      - cell "Leads":
+        - link "Leads":
+          - /url: index.php?module=Leads&action=index&parenttab=Marketing
+    - row "Calendar":
+      - cell "Calendar":
+        - link "Calendar":
+          - /url: index.php?module=Calendar&action=index&parenttab=Marketing
+    - row "Documents":
+      - cell "Documents":
+        - link "Documents":
+          - /url: index.php?module=Documents&action=index&parenttab=Marketing
+- table:
+  - rowgroup:
+    - row "My Home Page > Home Open Calendar... Show World Clock... Open Calculator... Chat... Last Viewed Open All Menu... Change layout":
+      - cell "My Home Page > Home":
+        - text: My Home Page >
+        - link "Home":
+          - /url: index.php?action=index&module=Home
+      - cell
+      - cell:
+        - img
+      - cell "Open Calendar...":
+        - img "Open Calendar..."
+      - cell "Show World Clock...":
+        - img "Show World Clock..."
+      - cell "Open Calculator...":
+        - img "Open Calculator..."
+      - cell "Chat...":
+        - img "Chat..."
+      - cell "Last Viewed":
+        - img "Last Viewed"
+      - cell "Open All Menu...":
+        - img "Open All Menu..."
+      - cell "Change layout":
+        - img "Change layout"
+      - cell
+- table:
+  - rowgroup:
+    - row:
+      - cell:
+        - table:
+          - rowgroup:
+            - row "Tag Cloud Edit Refresh Hide Close":
+              - cell "Tag Cloud"
+              - cell:
+                - img
+              - cell "Edit Refresh Hide Close":
+                - img "Edit"
+                - img "Refresh"
+                - img "Hide"
+                - img "Close"
+        - table:
+          - rowgroup:
+            - row:
+              - cell
+        - table:
+          - rowgroup:
+            - row "Scroll":
+              - cell "Scroll":
+                - link "Scroll":
+                  - /url: javascript:;
+        - table:
+          - rowgroup:
+            - row "Top Accounts Edit Refresh Hide Close":
+              - cell "Top Accounts"
+              - cell
+              - cell "Edit Refresh Hide Close":
+                - img "Edit"
+                - img "Refresh"
+                - img "Hide"
+                - img "Close"
+        - table:
+          - rowgroup:
+            - row "No Data Found":
+              - cell "No Data Found":
+                - text: No Data Found
+                - table:
+                  - rowgroup:
+                    - row:
+                      - cell
+        - table:
+          - rowgroup:
+            - row "Scroll":
+              - cell "Scroll":
+                - link "Scroll":
+                  - /url: javascript:;
+              - cell
+        - table:
+          - rowgroup:
+            - row "Top Potentials Edit Refresh Hide Close":
+              - cell "Top Potentials"
+              - cell
+              - cell "Edit Refresh Hide Close":
+                - img "Edit"
+                - img "Refresh"
+                - img "Hide"
+                - img "Close"
+        - table:
+          - rowgroup:
+            - row "No Data Found":
+              - cell "No Data Found":
+                - text: No Data Found
+                - table:
+                  - rowgroup:
+                    - row:
+                      - cell
+        - table:
+          - rowgroup:
+            - row "Scroll":
+              - cell "Scroll":
+                - link "Scroll":
+                  - /url: javascript:;
+              - cell
+        - table:
+          - rowgroup:
+            - row "Top Quotes Edit Refresh Hide Close":
+              - cell "Top Quotes"
+              - cell
+              - cell "Edit Refresh Hide Close":
+                - img "Edit"
+                - img "Refresh"
+                - img "Hide"
+                - img "Close"
+        - table:
+          - rowgroup:
+            - row "No Data Found":
+              - cell "No Data Found":
+                - text: No Data Found
+                - table:
+                  - rowgroup:
+                    - row:
+                      - cell
+        - table:
+          - rowgroup:
+            - row "Scroll":
+              - cell "Scroll":
+                - link "Scroll":
+                  - /url: javascript:;
+              - cell
+        - table:
+          - rowgroup:
+            - row "Key Metrics Edit Refresh Hide Close":
+              - cell "Key Metrics"
+              - cell
+              - cell "Edit Refresh Hide Close":
+                - img "Edit"
+                - img "Refresh"
+                - img "Hide"
+                - img "Close"
+        - table:
+          - rowgroup:
+            - row "Metrics Module Count More Information Prospect Accounts (admin) Accounts 0 More Information Open Tickets (admin) Trouble Tickets 2 More Information Hot Leads (admin) Leads 0 More Information Potentials Won (admin) Potentials 0 More Information Open Quotes (admin) Quotes 0":
+              - cell "Metrics Module Count More Information Prospect Accounts (admin) Accounts 0 More Information Open Tickets (admin) Trouble Tickets 2 More Information Hot Leads (admin) Leads 0 More Information Potentials Won (admin) Potentials 0 More Information Open Quotes (admin) Quotes 0":
+                - table:
+                  - rowgroup:
+                    - row "Metrics Module Count":
+                      - cell
+                      - cell "Metrics"
+                      - cell "Module"
+                      - cell "Count"
+                    - row "More Information Prospect Accounts (admin) Accounts 0":
+                      - cell "More Information":
+                        - img "More Information"
+                      - cell "Prospect Accounts (admin)":
+                        - link "Prospect Accounts":
+                          - /url: index.php?action=ListView&module=Accounts&viewname=5
+                        - text: (admin)
+                      - cell "Accounts":
+                        - link "Accounts":
+                          - /url: index.php?action=ListView&module=Accounts&viewname=5
+                      - cell "0":
+                        - link "0":
+                          - /url: index.php?action=ListView&module=Accounts&viewname=5
+                    - row "More Information Open Tickets (admin) Trouble Tickets 2":
+                      - cell "More Information":
+                        - img "More Information"
+                      - cell "Open Tickets (admin)":
+                        - link "Open Tickets":
+                          - /url: index.php?action=ListView&module=HelpDesk&viewname=14
+                        - text: (admin)
+                      - cell "Trouble Tickets":
+                        - link "Trouble Tickets":
+                          - /url: index.php?action=ListView&module=HelpDesk&viewname=14
+                      - cell "2":
+                        - link "2":
+                          - /url: index.php?action=ListView&module=HelpDesk&viewname=14
+                    - row "More Information Hot Leads (admin) Leads 0":
+                      - cell "More Information":
+                        - img "More Information"
+                      - cell "Hot Leads (admin)":
+                        - link "Hot Leads":
+                          - /url: index.php?action=ListView&module=Leads&viewname=2
+                        - text: (admin)
+                      - cell "Leads":
+                        - link "Leads":
+                          - /url: index.php?action=ListView&module=Leads&viewname=2
+                      - cell "0":
+                        - link "0":
+                          - /url: index.php?action=ListView&module=Leads&viewname=2
+                    - row "More Information Potentials Won (admin) Potentials 0":
+                      - cell "More Information":
+                        - img "More Information"
+                      - cell "Potentials Won (admin)":
+                        - link "Potentials Won":
+                          - /url: index.php?action=ListView&module=Potentials&viewname=11
+                        - text: (admin)
+                      - cell "Potentials":
+                        - link "Potentials":
+                          - /url: index.php?action=ListView&module=Potentials&viewname=11
+                      - cell "0":
+                        - link "0":
+                          - /url: index.php?action=ListView&module=Potentials&viewname=11
+                    - row "More Information Open Quotes (admin) Quotes 0":
+                      - cell "More Information":
+                        - img "More Information"
+                      - cell "Open Quotes (admin)":
+                        - link "Open Quotes":
+                          - /url: index.php?action=ListView&module=Quotes&viewname=17
+                        - text: (admin)
+                      - cell "Quotes":
+                        - link "Quotes":
+                          - /url: index.php?action=ListView&module=Quotes&viewname=17
+                      - cell "0":
+                        - link "0":
+                          - /url: index.php?action=ListView&module=Quotes&viewname=17
+        - table:
+          - rowgroup:
+            - row "Scroll":
+              - cell "Scroll":
+                - link "Scroll":
+                  - /url: javascript:;
+        - table:
+          - rowgroup:
+            - row "Top Trouble Tickets Edit Refresh Hide Close":
+              - cell "Top Trouble Tickets"
+              - cell
+              - cell "Edit Refresh Hide Close":
+                - img "Edit"
+                - img "Refresh"
+                - img "Hide"
+                - img "Close"
+        - table:
+          - rowgroup:
+            - 'row "Subject : Related To More Information test More Information Test"':
+              - 'cell "Subject : Related To More Information test More Information Test"':
+                - table:
+                  - rowgroup:
+                    - 'row "Subject : Related To"':
+                      - cell
+                      - cell "Subject :"
+                      - cell "Related To"
+                    - row "More Information test":
+                      - cell "More Information":
+                        - img "More Information"
+                      - cell "test":
+                        - link "test":
+                          - /url: index.php?action=DetailView&module=HelpDesk&record=34
+                      - cell
+                    - row "More Information Test":
+                      - cell "More Information":
+                        - img "More Information"
+                      - cell "Test":
+                        - link "Test":
+                          - /url: index.php?action=DetailView&module=HelpDesk&record=24
+                      - cell
+        - table:
+          - rowgroup:
+            - row "Scroll More":
+              - cell "Scroll":
+                - link "Scroll":
+                  - /url: javascript:;
+              - cell "More":
+                - link "More":
+                  - /url: index.php?module=HelpDesk&action=index&query=true&Fields0=ticketstatus&Condition0=n&Srch_value0=closed&Fields1=assigned_user_id&Condition1=e&Srch_value1=admin&searchtype=advance&search_cnt=2&matchtype=all
+        - table:
+          - rowgroup:
+            - row "Upcoming Activities Edit Refresh Hide Close":
+              - cell "Upcoming Activities"
+              - cell
+              - cell "Edit Refresh Hide Close":
+                - img "Edit"
+                - img "Refresh"
+                - img "Hide"
+                - img "Close"
+        - table:
+          - rowgroup:
+            - row "More Information No Data Found":
+              - cell "More Information No Data Found":
+                - table:
+                  - rowgroup:
+                    - row:
+                      - cell
+                    - row "More Information No Data Found":
+                      - cell "More Information":
+                        - img "More Information"
+                      - cell "No Data Found"
+        - table:
+          - rowgroup:
+            - row "Scroll More":
+              - cell "Scroll":
+                - link "Scroll":
+                  - /url: javascript:;
+              - cell "More":
+                - link "More":
+                  - /url: index.php?module=Calendar&action=index&action=ListView&from_homepage=upcoming_activities
+        - table:
+          - rowgroup:
+            - row "Top Sales Orders Edit Refresh Hide Close":
+              - cell "Top Sales Orders"
+              - cell
+              - cell "Edit Refresh Hide Close":
+                - img "Edit"
+                - img "Refresh"
+                - img "Hide"
+                - img "Close"
+        - table:
+          - rowgroup:
+            - row "No Data Found":
+              - cell "No Data Found":
+                - text: No Data Found
+                - table:
+                  - rowgroup:
+                    - row:
+                      - cell
+        - table:
+          - rowgroup:
+            - row "Scroll":
+              - cell "Scroll":
+                - link "Scroll":
+                  - /url: javascript:;
+              - cell
+        - table:
+          - rowgroup:
+            - row "Top Invoices Edit Refresh Hide Close":
+              - cell "Top Invoices"
+              - cell
+              - cell "Edit Refresh Hide Close":
+                - img "Edit"
+                - img "Refresh"
+                - img "Hide"
+                - img "Close"
+        - table:
+          - rowgroup:
+            - row "No Data Found":
+              - cell "No Data Found":
+                - text: No Data Found
+                - table:
+                  - rowgroup:
+                    - row:
+                      - cell
+        - table:
+          - rowgroup:
+            - row "Scroll":
+              - cell "Scroll":
+                - link "Scroll":
+                  - /url: javascript:;
+              - cell
+        - table:
+          - rowgroup:
+            - row "My New Leads Edit Refresh Hide Close":
+              - cell "My New Leads"
+              - cell
+              - cell "Edit Refresh Hide Close":
+                - img "Edit"
+                - img "Refresh"
+                - img "Hide"
+                - img "Close"
+        - table:
+          - rowgroup:
+            - row "No Data Found":
+              - cell "No Data Found":
+                - text: No Data Found
+                - table:
+                  - rowgroup:
+                    - row:
+                      - cell
+        - table:
+          - rowgroup:
+            - row "Scroll":
+              - cell "Scroll":
+                - link "Scroll":
+                  - /url: javascript:;
+              - cell
+        - table:
+          - rowgroup:
+            - row "Top Purchase Orders Edit Refresh Hide Close":
+              - cell "Top Purchase Orders"
+              - cell
+              - cell "Edit Refresh Hide Close":
+                - img "Edit"
+                - img "Refresh"
+                - img "Hide"
+                - img "Close"
+        - table:
+          - rowgroup:
+            - row "No Data Found":
+              - cell "No Data Found":
+                - text: No Data Found
+                - table:
+                  - rowgroup:
+                    - row:
+                      - cell
+        - table:
+          - rowgroup:
+            - row "Scroll":
+              - cell "Scroll":
+                - link "Scroll":
+                  - /url: javascript:;
+              - cell
+        - table:
+          - rowgroup:
+            - row "Pending Activities Edit Refresh Hide Close":
+              - cell "Pending Activities"
+              - cell
+              - cell "Edit Refresh Hide Close":
+                - img "Edit"
+                - img "Refresh"
+                - img "Hide"
+                - img "Close"
+        - table:
+          - rowgroup:
+            - row "More Information No Data Found":
+              - cell "More Information No Data Found":
+                - table:
+                  - rowgroup:
+                    - row:
+                      - cell
+                    - row "More Information No Data Found":
+                      - cell "More Information":
+                        - img "More Information"
+                      - cell "No Data Found"
+        - table:
+          - rowgroup:
+            - row "Scroll More":
+              - cell "Scroll":
+                - link "Scroll":
+                  - /url: javascript:;
+              - cell "More":
+                - link "More":
+                  - /url: index.php?module=Calendar&action=index&action=ListView&from_homepage=pending_activities
+        - table:
+          - rowgroup:
+            - row "My Recent FAQs Edit Refresh Hide Close":
+              - cell "My Recent FAQs"
+              - cell
+              - cell "Edit Refresh Hide Close":
+                - img "Edit"
+                - img "Refresh"
+                - img "Hide"
+                - img "Close"
+        - table:
+          - rowgroup:
+            - row "No Data Found":
+              - cell "No Data Found":
+                - text: No Data Found
+                - table:
+                  - rowgroup:
+                    - row:
+                      - cell
+        - table:
+          - rowgroup:
+            - row "Scroll":
+              - cell "Scroll":
+                - link "Scroll":
+                  - /url: javascript:;
+              - cell
+- table:
+  - rowgroup:
+    - row "vtiger CRM 5.2.1 © 2004-2025 vtiger.com | Read License | Privacy Policy":
+      - cell "vtiger CRM 5.2.1"
+      - cell "© 2004-2025 vtiger.com | Read License | Privacy Policy":
+        - text: © 2004-2025
+        - link "vtiger.com":
+          - /url: http://www.vtiger.com
+        - text: "|"
+        - link "Read License":
+          - /url: javascript:mypopup()
+        - text: "|"
+        - link "Privacy Policy":
+          - /url: http://www.vtiger.com/products/crm/privacy_policy.html
+```

@@ -1,0 +1,425 @@
+# Page snapshot
+
+```yaml
+- table:
+  - rowgroup:
+    - row "vtiger CRM Gmail Bookmarklet vtiger News Feedback My Preferences Help About Us Sign Out (admin)":
+      - cell "vtiger CRM":
+        - img "vtiger CRM"
+      - cell
+      - cell "Gmail Bookmarklet vtiger News Feedback My Preferences Help About Us Sign Out (admin)":
+        - table:
+          - rowgroup:
+            - row "Gmail Bookmarklet vtiger News Feedback My Preferences Help About Us Sign Out (admin)":
+              - cell "Gmail Bookmarklet":
+                - link "Gmail Bookmarklet":
+                  - /url: javascript:(function()%7Bvar%20doc=top.document;var%20bodyElement=document.body;doc.vtigerURL%20=%22http://localhost:8888/%22;var%20scriptElement=document.createElement(%22script%22);scriptElement.type=%22text/javascript%22;scriptElement.src=doc.vtigerURL+%22modules/Emails/GmailBookmarkletTrigger.js%22;bodyElement.appendChild(scriptElement);%7D)();
+              - cell "vtiger News":
+                - link "vtiger News":
+                  - /url: javascript:void(0);
+              - cell "Feedback":
+                - link "Feedback":
+                  - /url: javascript:void(0);
+              - cell "My Preferences":
+                - link "My Preferences":
+                  - /url: index.php?module=Users&action=DetailView&record=1&modechk=prefview
+              - cell "Help":
+                - link "Help":
+                  - /url: http://wiki.vtiger.com/index.php/Main_Page
+              - cell "About Us":
+                - link "About Us":
+                  - /url: javascript:;
+              - cell "Sign Out (admin)":
+                - link "Sign Out":
+                  - /url: index.php?module=Users&action=Logout
+                - text: (admin)
+- table:
+  - rowgroup:
+    - row "My Home Page Marketing Sales Support Analytics Inventory Tools Settings Quick Create... Search... Find":
+      - cell
+      - cell "My Home Page Marketing Sales Support Analytics Inventory Tools Settings Quick Create...":
+        - table:
+          - rowgroup:
+            - row "My Home Page Marketing Sales Support Analytics Inventory Tools Settings Quick Create...":
+              - cell:
+                - img
+              - cell "My Home Page":
+                - link "My Home Page":
+                  - /url: index.php?module=Home&action=index&parenttab=My Home Page
+                - img
+              - cell:
+                - img
+              - cell "Marketing":
+                - link "Marketing":
+                  - /url: index.php?module=Campaigns&action=index&parenttab=Marketing
+                - img
+              - cell:
+                - img
+              - cell "Sales":
+                - link "Sales":
+                  - /url: index.php?module=Leads&action=index&parenttab=Sales
+                - img
+              - cell:
+                - img
+              - cell "Support":
+                - link "Support":
+                  - /url: index.php?module=HelpDesk&action=index&parenttab=Support
+                - img
+              - cell:
+                - img
+              - cell "Analytics":
+                - link "Analytics":
+                  - /url: index.php?module=Reports&action=index&parenttab=Analytics
+                - img
+              - cell:
+                - img
+              - cell "Inventory":
+                - link "Inventory":
+                  - /url: index.php?module=Products&action=index&parenttab=Inventory
+                - img
+              - cell:
+                - img
+              - cell "Tools":
+                - link "Tools":
+                  - /url: index.php?module=Rss&action=index&parenttab=Tools
+                - img
+              - cell:
+                - img
+              - cell "Settings":
+                - link "Settings":
+                  - /url: index.php?module=Settings&action=index&parenttab=Settings
+                - img
+              - cell:
+                - img
+              - cell "Quick Create...":
+                - combobox:
+                  - option "Quick Create..." [selected]
+                  - option "New Account"
+                  - option "New Asset"
+                  - option "New To Do"
+                  - option "New Campaign"
+                  - option "New Comment"
+                  - option "New Contact"
+                  - option "New Document"
+                  - option "New Event"
+                  - option "New Ticket"
+                  - option "New Lead"
+                  - option "New Potential"
+                  - option "New PriceBook"
+                  - option "New Product"
+                  - option "New Project"
+                  - option "New Project Milestone"
+                  - option "New Project Task"
+                  - option "New Service Contract"
+                  - option "New Service"
+                  - option "New Vendor"
+      - cell "Search... Find":
+        - table:
+          - rowgroup:
+            - row "Search... Find":
+              - cell "Search...":
+                - link:
+                  - /url: javascript:void(0);
+                  - img
+                - textbox: Search...
+              - cell "Find":
+                - button "Find"
+- table:
+  - rowgroup:
+    - row "Campaigns Accounts Contacts Webmail Leads Calendar Documents":
+      - cell "Campaigns Accounts Contacts Webmail Leads Calendar Documents":
+        - table:
+          - rowgroup:
+            - row "Campaigns Accounts Contacts Webmail Leads Calendar Documents":
+              - cell "Campaigns":
+                - link "Campaigns":
+                  - /url: index.php?module=Campaigns&action=index&parenttab=Marketing
+              - cell "Accounts":
+                - link "Accounts":
+                  - /url: index.php?module=Accounts&action=index&parenttab=Marketing
+              - cell "Contacts":
+                - link "Contacts":
+                  - /url: index.php?module=Contacts&action=index&parenttab=Marketing
+              - cell "Webmail":
+                - link "Webmail":
+                  - /url: index.php?module=Webmails&action=index&parenttab=Marketing
+              - cell "Leads":
+                - link "Leads":
+                  - /url: index.php?module=Leads&action=index&parenttab=Marketing
+              - cell "Calendar":
+                - link "Calendar":
+                  - /url: index.php?module=Calendar&action=index&parenttab=Marketing
+              - cell "Documents":
+                - link "Documents":
+                  - /url: index.php?module=Documents&action=index&parenttab=Marketing
+- table:
+  - rowgroup:
+    - row:
+      - cell
+    - row "Marketing > Leads Create Lead... Search in Leads... Open Calendar... Show World Clock... Open Calculator... Chat... Last Viewed Import Leads Export Leads Find Duplicates Open All Menu... Leads Settings":
+      - cell "Marketing > Leads":
+        - text: Marketing >
+        - link "Leads":
+          - /url: index.php?action=ListView&module=Leads&parenttab=Marketing
+      - cell "Create Lead... Search in Leads... Open Calendar... Show World Clock... Open Calculator... Chat... Last Viewed Import Leads Export Leads Find Duplicates Open All Menu... Leads Settings":
+        - table:
+          - rowgroup:
+            - row "Create Lead... Search in Leads... Open Calendar... Show World Clock... Open Calculator... Chat... Last Viewed Import Leads Export Leads Find Duplicates Open All Menu... Leads Settings":
+              - cell
+              - cell "Create Lead... Search in Leads...":
+                - table:
+                  - rowgroup:
+                    - row "Create Lead... Search in Leads...":
+                      - cell "Create Lead... Search in Leads...":
+                        - table:
+                          - rowgroup:
+                            - row "Create Lead... Search in Leads...":
+                              - cell "Create Lead...":
+                                - link "Create Lead...":
+                                  - /url: index.php?module=Leads&action=EditView&return_action=DetailView&parenttab=Marketing
+                                  - img "Create Lead..."
+                              - cell "Search in Leads...":
+                                - link "Search in Leads...":
+                                  - /url: javascript:;
+                                  - img "Search in Leads..."
+              - cell
+              - cell "Open Calendar... Show World Clock... Open Calculator... Chat... Last Viewed":
+                - table:
+                  - rowgroup:
+                    - row "Open Calendar... Show World Clock... Open Calculator... Chat... Last Viewed":
+                      - cell "Open Calendar...":
+                        - link "Open Calendar...":
+                          - /url: javascript:;
+                          - img "Open Calendar..."
+                      - cell "Show World Clock...":
+                        - link "Show World Clock...":
+                          - /url: javascript:;
+                          - img "Show World Clock..."
+                      - cell "Open Calculator...":
+                        - link "Open Calculator...":
+                          - /url: "#"
+                          - img "Open Calculator..."
+                      - cell "Chat...":
+                        - link "Chat...":
+                          - /url: javascript:;
+                          - img "Chat..."
+                      - cell "Last Viewed":
+                        - img "Last Viewed"
+              - cell
+              - cell "Import Leads Export Leads Find Duplicates":
+                - table:
+                  - rowgroup:
+                    - row "Import Leads Export Leads Find Duplicates":
+                      - cell "Import Leads":
+                        - link "Import Leads":
+                          - /url: index.php?module=Leads&action=Import&step=1&return_module=Leads&return_action=index&parenttab=Marketing
+                          - img "Import Leads"
+                      - cell "Export Leads":
+                        - link "Export Leads":
+                          - /url: javascript:void(0)
+                          - img "Export Leads"
+                      - cell "Find Duplicates":
+                        - link "Find Duplicates":
+                          - /url: javascript:;
+                          - img "Find Duplicates"
+              - cell
+              - cell "Open All Menu... Leads Settings":
+                - table:
+                  - rowgroup:
+                    - row "Open All Menu... Leads Settings":
+                      - cell "Open All Menu...":
+                        - link "Open All Menu...":
+                          - /url: javascript:;
+                          - img "Open All Menu..."
+                      - cell "Leads Settings":
+                        - link "Leads Settings":
+                          - /url: index.php?module=Settings&action=ModuleManager&module_settings=true&formodule=Leads&parenttab=Settings
+                          - img "Leads Settings"
+    - row:
+      - cell
+- table:
+  - rowgroup:
+    - 'row "Search Go to Advanced Search Search for In Lead No Search Now [x] A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Delete Send Mail Mass Edit Send SMS 1 of 1 Filters : All New | Edit | Delete Lead No Last Name First Name Company Phone Website Email Assigned To Action No Lead Found ! You can Create a Lead Now. Click the link below: -Create a Lead Delete Send Mail Mass Edit Send SMS 1 of 1 Create Mail Merge templates"':
+      - cell:
+        - img
+      - 'cell "Search Go to Advanced Search Search for In Lead No Search Now [x] A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Delete Send Mail Mass Edit Send SMS 1 of 1 Filters : All New | Edit | Delete Lead No Last Name First Name Company Phone Website Email Assigned To Action No Lead Found ! You can Create a Lead Now. Click the link below: -Create a Lead Delete Send Mail Mass Edit Send SMS 1 of 1 Create Mail Merge templates"':
+        - table:
+          - rowgroup:
+            - row "Search Go to Advanced Search Search for In Lead No Search Now [x]":
+              - cell "Search Go to Advanced Search":
+                - text: Search
+                - link "Go to Advanced Search":
+                  - /url: "#"
+              - cell "Search for"
+              - cell:
+                - textbox
+              - cell "In"
+              - cell "Lead No":
+                - combobox:
+                  - option "Lead No" [selected]
+                  - option "Last Name"
+                  - option "First Name"
+                  - option "Company"
+                  - option "Phone"
+                  - option "Website"
+                  - option "Email"
+                  - option "Assigned To"
+              - cell "Search Now":
+                - button "Search Now"
+              - cell "[x]"
+            - row "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z":
+              - cell "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z":
+                - table:
+                  - rowgroup:
+                    - row "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z":
+                      - cell "A"
+                      - cell "B"
+                      - cell "C"
+                      - cell "D"
+                      - cell "E"
+                      - cell "F"
+                      - cell "G"
+                      - cell "H"
+                      - cell "I"
+                      - cell "J"
+                      - cell "K"
+                      - cell "L"
+                      - cell "M"
+                      - cell "N"
+                      - cell "O"
+                      - cell "P"
+                      - cell "Q"
+                      - cell "R"
+                      - cell "S"
+                      - cell "T"
+                      - cell "U"
+                      - cell "V"
+                      - cell "W"
+                      - cell "X"
+                      - cell "Y"
+                      - cell "Z"
+        - table:
+          - rowgroup:
+            - 'row "Delete Send Mail Mass Edit Send SMS 1 of 1 Filters : All New | Edit | Delete Lead No Last Name First Name Company Phone Website Email Assigned To Action No Lead Found ! You can Create a Lead Now. Click the link below: -Create a Lead Delete Send Mail Mass Edit Send SMS 1 of 1 Create Mail Merge templates"':
+              - 'cell "Delete Send Mail Mass Edit Send SMS 1 of 1 Filters : All New | Edit | Delete Lead No Last Name First Name Company Phone Website Email Assigned To Action No Lead Found ! You can Create a Lead Now. Click the link below: -Create a Lead Delete Send Mail Mass Edit Send SMS 1 of 1 Create Mail Merge templates"':
+                - table:
+                  - rowgroup:
+                    - 'row "Delete Send Mail Mass Edit Send SMS 1 of 1 Filters : All New | Edit | Delete"':
+                      - cell "Delete Send Mail Mass Edit Send SMS":
+                        - button "Delete"
+                        - button "Send Mail"
+                        - button "Mass Edit"
+                        - button "Send SMS"
+                      - cell
+                      - cell "1 of 1":
+                        - table:
+                          - rowgroup:
+                            - row "1 of 1":
+                              - cell "1 of 1":
+                                - img
+                                - img
+                                - textbox: "1"
+                                - text: of 1
+                                - img
+                                - img
+                      - 'cell "Filters : All New | Edit | Delete"':
+                        - table:
+                          - rowgroup:
+                            - 'row "Filters : All New | Edit | Delete"':
+                              - cell "Filters :"
+                              - cell "All":
+                                - combobox:
+                                  - option "All" [selected]
+                                  - option "Hot Leads"
+                                  - option "This Month Leads"
+                              - cell "New | Edit | Delete":
+                                - link "New":
+                                  - /url: index.php?module=Leads&action=CustomView&parenttab=Marketing
+                                - text: "| Edit | Delete"
+                - table:
+                  - rowgroup:
+                    - row "Lead No Last Name First Name Company Phone Website Email Assigned To Action":
+                      - cell:
+                        - checkbox
+                      - cell "Lead No":
+                        - link "Lead No":
+                          - /url: javascript:;
+                      - cell "Last Name":
+                        - link "Last Name":
+                          - /url: javascript:;
+                      - cell "First Name":
+                        - link "First Name":
+                          - /url: javascript:;
+                      - cell "Company":
+                        - link "Company":
+                          - /url: javascript:;
+                      - cell "Phone":
+                        - link "Phone":
+                          - /url: javascript:;
+                      - cell "Website":
+                        - link "Website":
+                          - /url: javascript:;
+                      - cell "Email":
+                        - link "Email":
+                          - /url: javascript:;
+                      - cell "Assigned To":
+                        - link "Assigned To":
+                          - /url: javascript:;
+                      - cell "Action"
+                    - 'row "No Lead Found ! You can Create a Lead Now. Click the link below: -Create a Lead"':
+                      - 'cell "No Lead Found ! You can Create a Lead Now. Click the link below: -Create a Lead"':
+                        - table:
+                          - rowgroup:
+                            - row "No Lead Found !":
+                              - cell:
+                                - img
+                              - cell "No Lead Found !"
+                            - 'row "You can Create a Lead Now. Click the link below: -Create a Lead"':
+                              - 'cell "You can Create a Lead Now. Click the link below: -Create a Lead"':
+                                - text: "You can Create a Lead Now. Click the link below: -"
+                                - link "Create a Lead":
+                                  - /url: index.php?module=Leads&action=EditView&return_action=DetailView&parenttab=Marketing
+                - table:
+                  - rowgroup:
+                    - row "Delete Send Mail Mass Edit Send SMS 1 of 1 Create Mail Merge templates":
+                      - cell "Delete Send Mail Mass Edit Send SMS":
+                        - button "Delete"
+                        - button "Send Mail"
+                        - button "Mass Edit"
+                        - button "Send SMS"
+                      - cell
+                      - cell "1 of 1":
+                        - table:
+                          - rowgroup:
+                            - row "1 of 1":
+                              - cell "1 of 1":
+                                - img
+                                - img
+                                - textbox: "1"
+                                - text: of 1
+                                - img
+                                - img
+                      - cell "Create Mail Merge templates":
+                        - table:
+                          - rowgroup:
+                            - row "Create Mail Merge templates":
+                              - cell "Create Mail Merge templates":
+                                - link "Create Mail Merge templates":
+                                  - /url: index.php?module=Settings&action=upload&tempModule=Leads&parenttab=Settings
+      - cell:
+        - img
+- table:
+  - rowgroup:
+    - row "vtiger CRM 5.2.1 © 2004-2025 vtiger.com | Read License | Privacy Policy":
+      - cell "vtiger CRM 5.2.1"
+      - cell "© 2004-2025 vtiger.com | Read License | Privacy Policy":
+        - text: © 2004-2025
+        - link "vtiger.com":
+          - /url: http://www.vtiger.com
+        - text: "|"
+        - link "Read License":
+          - /url: javascript:mypopup()
+        - text: "|"
+        - link "Privacy Policy":
+          - /url: http://www.vtiger.com/products/crm/privacy_policy.html
+```

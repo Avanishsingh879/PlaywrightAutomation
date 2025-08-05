@@ -1,0 +1,74 @@
+# Page snapshot
+
+```yaml
+- table:
+  - rowgroup:
+    - row:
+      - cell:
+        - img
+- table:
+  - rowgroup:
+    - row "vtiger CRM The honest Open Source CRM":
+      - cell "vtiger CRM":
+        - img "vtiger CRM"
+      - cell "The honest Open Source CRM":
+        - img "The honest Open Source CRM"
+    - row "Sign in User Name Password Color Theme softed Language US English Login [Alt+L]":
+      - cell:
+        - img
+      - cell "Sign in User Name Password Color Theme softed Language US English Login [Alt+L]":
+        - table:
+          - rowgroup:
+            - row "Sign in":
+              - cell "Sign in":
+                - img "Sign in"
+            - row "User Name Password Color Theme softed Language US English Login [Alt+L]":
+              - cell "User Name Password Color Theme softed Language US English Login [Alt+L]":
+                - table:
+                  - rowgroup:
+                    - row "User Name":
+                      - cell "User Name"
+                      - cell:
+                        - textbox
+                    - row "Password":
+                      - cell "Password"
+                      - cell:
+                        - textbox
+                    - row "Color Theme softed":
+                      - cell "Color Theme"
+                      - cell "softed":
+                        - combobox:
+                          - option "alphagrey"
+                          - option "bluelagoon"
+                          - option "softed" [selected]
+                          - option "woodspice"
+                    - row "Language US English":
+                      - cell "Language"
+                      - cell "US English":
+                        - combobox:
+                          - option "US English" [selected]
+                          - option "DE Deutsch"
+                          - option "NL-Dutch"
+                          - option "Francais"
+                          - option "HU Magyar"
+                          - option "ES Spanish"
+                    - row "Login [Alt+L]":
+                      - cell
+                      - cell "Login [Alt+L]":
+                        - button "Login [Alt+L]": Login
+- table:
+  - rowgroup:
+    - row "vtiger CRM 5.2.1 © 2004-2025 vtiger.com | Read License | Privacy Policy |":
+      - cell "vtiger CRM 5.2.1"
+      - cell "© 2004-2025 vtiger.com | Read License | Privacy Policy |":
+        - text: © 2004-2025
+        - link "vtiger.com":
+          - /url: http://www.vtiger.com
+        - text: "|"
+        - link "Read License":
+          - /url: javascript:mypopup()
+        - text: "|"
+        - link "Privacy Policy":
+          - /url: http://www.vtiger.com/products/crm/privacy_policy.html
+        - img "|"
+```
