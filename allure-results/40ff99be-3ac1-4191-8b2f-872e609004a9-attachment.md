@@ -1,0 +1,573 @@
+# Page snapshot
+
+```yaml
+- table:
+  - rowgroup:
+    - row "vtiger CRM Gmail Bookmarklet vtiger News Feedback My Preferences Help About Us Sign Out (admin)":
+      - cell "vtiger CRM":
+        - img "vtiger CRM"
+      - cell
+      - cell "Gmail Bookmarklet vtiger News Feedback My Preferences Help About Us Sign Out (admin)":
+        - table:
+          - rowgroup:
+            - row "Gmail Bookmarklet vtiger News Feedback My Preferences Help About Us Sign Out (admin)":
+              - cell "Gmail Bookmarklet":
+                - link "Gmail Bookmarklet":
+                  - /url: javascript:(function()%7Bvar%20doc=top.document;var%20bodyElement=document.body;doc.vtigerURL%20=%22http://localhost:8888/%22;var%20scriptElement=document.createElement(%22script%22);scriptElement.type=%22text/javascript%22;scriptElement.src=doc.vtigerURL+%22modules/Emails/GmailBookmarkletTrigger.js%22;bodyElement.appendChild(scriptElement);%7D)();
+              - cell "vtiger News":
+                - link "vtiger News":
+                  - /url: javascript:void(0);
+              - cell "Feedback":
+                - link "Feedback":
+                  - /url: javascript:void(0);
+              - cell "My Preferences":
+                - link "My Preferences":
+                  - /url: index.php?module=Users&action=DetailView&record=1&modechk=prefview
+              - cell "Help":
+                - link "Help":
+                  - /url: http://wiki.vtiger.com/index.php/Main_Page
+              - cell "About Us":
+                - link "About Us":
+                  - /url: javascript:;
+              - cell "Sign Out (admin)":
+                - link "Sign Out":
+                  - /url: index.php?module=Users&action=Logout
+                - text: (admin)
+- table:
+  - rowgroup:
+    - row "My Home Page Marketing Sales Support Analytics Inventory Tools Settings Quick Create... Search... Find":
+      - cell
+      - cell "My Home Page Marketing Sales Support Analytics Inventory Tools Settings Quick Create...":
+        - table:
+          - rowgroup:
+            - row "My Home Page Marketing Sales Support Analytics Inventory Tools Settings Quick Create...":
+              - cell:
+                - img
+              - cell "My Home Page":
+                - link "My Home Page":
+                  - /url: index.php?module=Home&action=index&parenttab=My Home Page
+                - img
+              - cell:
+                - img
+              - cell "Marketing":
+                - link "Marketing":
+                  - /url: index.php?module=Campaigns&action=index&parenttab=Marketing
+                - img
+              - cell:
+                - img
+              - cell "Sales":
+                - link "Sales":
+                  - /url: index.php?module=Leads&action=index&parenttab=Sales
+                - img
+              - cell:
+                - img
+              - cell "Support":
+                - link "Support":
+                  - /url: index.php?module=HelpDesk&action=index&parenttab=Support
+                - img
+              - cell:
+                - img
+              - cell "Analytics":
+                - link "Analytics":
+                  - /url: index.php?module=Reports&action=index&parenttab=Analytics
+                - img
+              - cell:
+                - img
+              - cell "Inventory":
+                - link "Inventory":
+                  - /url: index.php?module=Products&action=index&parenttab=Inventory
+                - img
+              - cell:
+                - img
+              - cell "Tools":
+                - link "Tools":
+                  - /url: index.php?module=Rss&action=index&parenttab=Tools
+                - img
+              - cell:
+                - img
+              - cell "Settings":
+                - link "Settings":
+                  - /url: index.php?module=Settings&action=index&parenttab=Settings
+                - img
+              - cell:
+                - img
+              - cell "Quick Create...":
+                - combobox:
+                  - option "Quick Create..." [selected]
+                  - option "New Account"
+                  - option "New Asset"
+                  - option "New To Do"
+                  - option "New Campaign"
+                  - option "New Comment"
+                  - option "New Contact"
+                  - option "New Document"
+                  - option "New Event"
+                  - option "New Ticket"
+                  - option "New Lead"
+                  - option "New Potential"
+                  - option "New PriceBook"
+                  - option "New Product"
+                  - option "New Project"
+                  - option "New Project Milestone"
+                  - option "New Project Task"
+                  - option "New Service Contract"
+                  - option "New Service"
+                  - option "New Vendor"
+      - cell "Search... Find":
+        - table:
+          - rowgroup:
+            - row "Search... Find":
+              - cell "Search...":
+                - link:
+                  - /url: javascript:void(0);
+                  - img
+                - textbox: Search...
+              - cell "Find":
+                - button "Find"
+- table:
+  - rowgroup:
+    - row "Campaigns Accounts Contacts Webmail Leads Calendar Documents":
+      - cell "Campaigns Accounts Contacts Webmail Leads Calendar Documents":
+        - table:
+          - rowgroup:
+            - row "Campaigns Accounts Contacts Webmail Leads Calendar Documents":
+              - cell "Campaigns":
+                - link "Campaigns":
+                  - /url: index.php?module=Campaigns&action=index&parenttab=Marketing
+              - cell "Accounts":
+                - link "Accounts":
+                  - /url: index.php?module=Accounts&action=index&parenttab=Marketing
+              - cell "Contacts":
+                - link "Contacts":
+                  - /url: index.php?module=Contacts&action=index&parenttab=Marketing
+              - cell "Webmail":
+                - link "Webmail":
+                  - /url: index.php?module=Webmails&action=index&parenttab=Marketing
+              - cell "Leads":
+                - link "Leads":
+                  - /url: index.php?module=Leads&action=index&parenttab=Marketing
+              - cell "Calendar":
+                - link "Calendar":
+                  - /url: index.php?module=Calendar&action=index&parenttab=Marketing
+              - cell "Documents":
+                - link "Documents":
+                  - /url: index.php?module=Documents&action=index&parenttab=Marketing
+- table:
+  - rowgroup:
+    - row:
+      - cell
+    - row "Marketing > Campaigns Create Campaign... Search in Campaigns... Open Calendar... Show World Clock... Open Calculator... Chat... Last Viewed Open All Menu... Campaigns Settings":
+      - cell "Marketing > Campaigns":
+        - text: Marketing >
+        - link "Campaigns":
+          - /url: index.php?action=ListView&module=Campaigns&parenttab=Marketing
+      - cell "Create Campaign... Search in Campaigns... Open Calendar... Show World Clock... Open Calculator... Chat... Last Viewed Open All Menu... Campaigns Settings":
+        - table:
+          - rowgroup:
+            - row "Create Campaign... Search in Campaigns... Open Calendar... Show World Clock... Open Calculator... Chat... Last Viewed Open All Menu... Campaigns Settings":
+              - cell
+              - cell "Create Campaign... Search in Campaigns...":
+                - table:
+                  - rowgroup:
+                    - row "Create Campaign... Search in Campaigns...":
+                      - cell "Create Campaign... Search in Campaigns...":
+                        - table:
+                          - rowgroup:
+                            - row "Create Campaign... Search in Campaigns...":
+                              - cell "Create Campaign...":
+                                - link "Create Campaign...":
+                                  - /url: index.php?module=Campaigns&action=EditView&return_action=DetailView&parenttab=Marketing
+                                  - img "Create Campaign..."
+                              - cell "Search in Campaigns...":
+                                - link "Search in Campaigns...":
+                                  - /url: javascript:;
+                                  - img "Search in Campaigns..."
+              - cell
+              - cell "Open Calendar... Show World Clock... Open Calculator... Chat... Last Viewed":
+                - table:
+                  - rowgroup:
+                    - row "Open Calendar... Show World Clock... Open Calculator... Chat... Last Viewed":
+                      - cell "Open Calendar...":
+                        - link "Open Calendar...":
+                          - /url: javascript:;
+                          - img "Open Calendar..."
+                      - cell "Show World Clock...":
+                        - link "Show World Clock...":
+                          - /url: javascript:;
+                          - img "Show World Clock..."
+                      - cell "Open Calculator...":
+                        - link "Open Calculator...":
+                          - /url: "#"
+                          - img "Open Calculator..."
+                      - cell "Chat...":
+                        - link "Chat...":
+                          - /url: javascript:;
+                          - img "Chat..."
+                      - cell "Last Viewed":
+                        - img "Last Viewed"
+              - cell
+              - cell:
+                - table:
+                  - rowgroup:
+                    - row:
+                      - cell:
+                        - img
+                      - cell:
+                        - img
+                      - cell:
+                        - img
+              - cell
+              - cell "Open All Menu... Campaigns Settings":
+                - table:
+                  - rowgroup:
+                    - row "Open All Menu... Campaigns Settings":
+                      - cell "Open All Menu...":
+                        - link "Open All Menu...":
+                          - /url: javascript:;
+                          - img "Open All Menu..."
+                      - cell "Campaigns Settings":
+                        - link "Campaigns Settings":
+                          - /url: index.php?module=Settings&action=ModuleManager&module_settings=true&formodule=Campaigns&parenttab=Settings
+                          - img "Campaigns Settings"
+    - row:
+      - cell
+- table:
+  - rowgroup:
+    - row:
+      - cell:
+        - img
+      - cell:
+        - table:
+          - rowgroup:
+            - row "Search Go to Advanced Search Search for In Campaign No Search Now [x]":
+              - cell "Search Go to Advanced Search":
+                - text: Search
+                - link "Go to Advanced Search":
+                  - /url: "#"
+              - cell "Search for"
+              - cell:
+                - textbox
+              - cell "In"
+              - cell "Campaign No":
+                - combobox:
+                  - option "Campaign No" [selected]
+                  - option "Campaign Name"
+                  - option "Campaign Type"
+                  - option "Campaign Status"
+                  - option "Expected Revenue"
+                  - option "Expected Close Date"
+                  - option "Assigned To"
+              - cell "Search Now":
+                - button "Search Now"
+              - cell "[x]"
+            - row "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z":
+              - cell "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z":
+                - table:
+                  - rowgroup:
+                    - row "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z":
+                      - cell "A"
+                      - cell "B"
+                      - cell "C"
+                      - cell "D"
+                      - cell "E"
+                      - cell "F"
+                      - cell "G"
+                      - cell "H"
+                      - cell "I"
+                      - cell "J"
+                      - cell "K"
+                      - cell "L"
+                      - cell "M"
+                      - cell "N"
+                      - cell "O"
+                      - cell "P"
+                      - cell "Q"
+                      - cell "R"
+                      - cell "S"
+                      - cell "T"
+                      - cell "U"
+                      - cell "V"
+                      - cell "W"
+                      - cell "X"
+                      - cell "Y"
+                      - cell "Z"
+        - table:
+          - rowgroup:
+            - 'row "Delete Mass Edit Showing Records 1 - 10 of 10 1 of 1 Filters : All New | Edit | Delete Campaign No Campaign Name Campaign Type Campaign Status Expected Revenue Expected Close Date Assigned To Action CAM10 Test9 --None-- --None-- 0 2025-06-02 admin edit | del CAM9 Test8 --None-- --None-- 0 2025-06-02 admin edit | del CAM8 Test7 --None-- --None-- 0 2025-06-02 admin edit | del CAM7 Test7 --None-- --None-- 0 2025-06-02 admin edit | del CAM6 Test6 --None-- --None-- 0 2025-06-02 admin edit | del CAM5 Test5 --None-- --None-- 0 2025-06-02 admin edit | del CAM4 Test4 --None-- --None-- 0 2025-06-02 admin edit | del CAM3 Test2 --None-- --None-- 0 2025-06-02 admin edit | del CAM2 Test1 --None-- --None-- 0 2025-06-02 admin edit | del CAM1 Test --None-- --None-- 0 2025-06-02 admin edit | del Delete Mass Edit Showing Records 1 - 10 of 10 1 of 1"':
+              - 'cell "Delete Mass Edit Showing Records 1 - 10 of 10 1 of 1 Filters : All New | Edit | Delete Campaign No Campaign Name Campaign Type Campaign Status Expected Revenue Expected Close Date Assigned To Action CAM10 Test9 --None-- --None-- 0 2025-06-02 admin edit | del CAM9 Test8 --None-- --None-- 0 2025-06-02 admin edit | del CAM8 Test7 --None-- --None-- 0 2025-06-02 admin edit | del CAM7 Test7 --None-- --None-- 0 2025-06-02 admin edit | del CAM6 Test6 --None-- --None-- 0 2025-06-02 admin edit | del CAM5 Test5 --None-- --None-- 0 2025-06-02 admin edit | del CAM4 Test4 --None-- --None-- 0 2025-06-02 admin edit | del CAM3 Test2 --None-- --None-- 0 2025-06-02 admin edit | del CAM2 Test1 --None-- --None-- 0 2025-06-02 admin edit | del CAM1 Test --None-- --None-- 0 2025-06-02 admin edit | del Delete Mass Edit Showing Records 1 - 10 of 10 1 of 1"':
+                - table:
+                  - rowgroup:
+                    - 'row "Delete Mass Edit Showing Records 1 - 10 of 10 1 of 1 Filters : All New | Edit | Delete"':
+                      - cell "Delete Mass Edit":
+                        - button "Delete"
+                        - button "Mass Edit"
+                      - cell "Showing Records 1 - 10 of 10"
+                      - cell "1 of 1":
+                        - table:
+                          - rowgroup:
+                            - row "1 of 1":
+                              - cell "1 of 1":
+                                - img
+                                - img
+                                - textbox: "1"
+                                - text: of 1
+                                - img
+                                - img
+                      - 'cell "Filters : All New | Edit | Delete"':
+                        - table:
+                          - rowgroup:
+                            - 'row "Filters : All New | Edit | Delete"':
+                              - cell "Filters :"
+                              - cell "All":
+                                - combobox:
+                                  - option "All" [selected]
+                              - cell "New | Edit | Delete":
+                                - link "New":
+                                  - /url: index.php?module=Campaigns&action=CustomView&parenttab=Marketing
+                                - text: "| Edit | Delete"
+                - table:
+                  - rowgroup:
+                    - row "Campaign No Campaign Name Campaign Type Campaign Status Expected Revenue Expected Close Date Assigned To Action":
+                      - cell:
+                        - checkbox
+                      - cell "Campaign No":
+                        - link "Campaign No":
+                          - /url: javascript:;
+                      - cell "Campaign Name":
+                        - link "Campaign Name":
+                          - /url: javascript:;
+                      - cell "Campaign Type":
+                        - link "Campaign Type":
+                          - /url: javascript:;
+                      - cell "Campaign Status":
+                        - link "Campaign Status":
+                          - /url: javascript:;
+                      - cell "Expected Revenue":
+                        - link "Expected Revenue":
+                          - /url: javascript:;
+                      - cell "Expected Close Date":
+                        - link "Expected Close Date":
+                          - /url: javascript:;
+                      - cell "Assigned To":
+                        - link "Assigned To":
+                          - /url: javascript:;
+                      - cell "Action"
+                    - row "CAM10 Test9 --None-- --None-- 0 2025-06-02 admin edit | del":
+                      - cell:
+                        - checkbox
+                      - cell "CAM10"
+                      - cell "Test9":
+                        - link "Test9":
+                          - /url: index.php?module=Campaigns&parenttab=Marketing&action=DetailView&record=48
+                      - cell "--None--"
+                      - cell "--None--"
+                      - cell "0"
+                      - cell "2025-06-02"
+                      - cell "admin"
+                      - cell "edit | del":
+                        - link "edit":
+                          - /url: index.php?module=Campaigns&action=EditView&record=48&return_module=Campaigns&return_action=index&parenttab=Marketing&return_viewname=29
+                        - text: "|"
+                        - link "del":
+                          - /url: javascript:confirmdelete("index.php%3Fmodule%3DCampaigns%26action%3DDelete%26record%3D48%26return_module%3DCampaigns%26return_action%3Dindex%26parenttab%3DMarketing%26return_viewname%3D29")
+                    - row "CAM9 Test8 --None-- --None-- 0 2025-06-02 admin edit | del":
+                      - cell:
+                        - checkbox
+                      - cell "CAM9"
+                      - cell "Test8":
+                        - link "Test8":
+                          - /url: index.php?module=Campaigns&parenttab=Marketing&action=DetailView&record=47
+                      - cell "--None--"
+                      - cell "--None--"
+                      - cell "0"
+                      - cell "2025-06-02"
+                      - cell "admin"
+                      - cell "edit | del":
+                        - link "edit":
+                          - /url: index.php?module=Campaigns&action=EditView&record=47&return_module=Campaigns&return_action=index&parenttab=Marketing&return_viewname=29
+                        - text: "|"
+                        - link "del":
+                          - /url: javascript:confirmdelete("index.php%3Fmodule%3DCampaigns%26action%3DDelete%26record%3D47%26return_module%3DCampaigns%26return_action%3Dindex%26parenttab%3DMarketing%26return_viewname%3D29")
+                    - row "CAM8 Test7 --None-- --None-- 0 2025-06-02 admin edit | del":
+                      - cell:
+                        - checkbox
+                      - cell "CAM8"
+                      - cell "Test7":
+                        - link "Test7":
+                          - /url: index.php?module=Campaigns&parenttab=Marketing&action=DetailView&record=46
+                      - cell "--None--"
+                      - cell "--None--"
+                      - cell "0"
+                      - cell "2025-06-02"
+                      - cell "admin"
+                      - cell "edit | del":
+                        - link "edit":
+                          - /url: index.php?module=Campaigns&action=EditView&record=46&return_module=Campaigns&return_action=index&parenttab=Marketing&return_viewname=29
+                        - text: "|"
+                        - link "del":
+                          - /url: javascript:confirmdelete("index.php%3Fmodule%3DCampaigns%26action%3DDelete%26record%3D46%26return_module%3DCampaigns%26return_action%3Dindex%26parenttab%3DMarketing%26return_viewname%3D29")
+                    - row "CAM7 Test7 --None-- --None-- 0 2025-06-02 admin edit | del":
+                      - cell:
+                        - checkbox
+                      - cell "CAM7"
+                      - cell "Test7":
+                        - link "Test7":
+                          - /url: index.php?module=Campaigns&parenttab=Marketing&action=DetailView&record=45
+                      - cell "--None--"
+                      - cell "--None--"
+                      - cell "0"
+                      - cell "2025-06-02"
+                      - cell "admin"
+                      - cell "edit | del":
+                        - link "edit":
+                          - /url: index.php?module=Campaigns&action=EditView&record=45&return_module=Campaigns&return_action=index&parenttab=Marketing&return_viewname=29
+                        - text: "|"
+                        - link "del":
+                          - /url: javascript:confirmdelete("index.php%3Fmodule%3DCampaigns%26action%3DDelete%26record%3D45%26return_module%3DCampaigns%26return_action%3Dindex%26parenttab%3DMarketing%26return_viewname%3D29")
+                    - row "CAM6 Test6 --None-- --None-- 0 2025-06-02 admin edit | del":
+                      - cell:
+                        - checkbox
+                      - cell "CAM6"
+                      - cell "Test6":
+                        - link "Test6":
+                          - /url: index.php?module=Campaigns&parenttab=Marketing&action=DetailView&record=44
+                      - cell "--None--"
+                      - cell "--None--"
+                      - cell "0"
+                      - cell "2025-06-02"
+                      - cell "admin"
+                      - cell "edit | del":
+                        - link "edit":
+                          - /url: index.php?module=Campaigns&action=EditView&record=44&return_module=Campaigns&return_action=index&parenttab=Marketing&return_viewname=29
+                        - text: "|"
+                        - link "del":
+                          - /url: javascript:confirmdelete("index.php%3Fmodule%3DCampaigns%26action%3DDelete%26record%3D44%26return_module%3DCampaigns%26return_action%3Dindex%26parenttab%3DMarketing%26return_viewname%3D29")
+                    - row "CAM5 Test5 --None-- --None-- 0 2025-06-02 admin edit | del":
+                      - cell:
+                        - checkbox
+                      - cell "CAM5"
+                      - cell "Test5":
+                        - link "Test5":
+                          - /url: index.php?module=Campaigns&parenttab=Marketing&action=DetailView&record=43
+                      - cell "--None--"
+                      - cell "--None--"
+                      - cell "0"
+                      - cell "2025-06-02"
+                      - cell "admin"
+                      - cell "edit | del":
+                        - link "edit":
+                          - /url: index.php?module=Campaigns&action=EditView&record=43&return_module=Campaigns&return_action=index&parenttab=Marketing&return_viewname=29
+                        - text: "|"
+                        - link "del":
+                          - /url: javascript:confirmdelete("index.php%3Fmodule%3DCampaigns%26action%3DDelete%26record%3D43%26return_module%3DCampaigns%26return_action%3Dindex%26parenttab%3DMarketing%26return_viewname%3D29")
+                    - row "CAM4 Test4 --None-- --None-- 0 2025-06-02 admin edit | del":
+                      - cell:
+                        - checkbox
+                      - cell "CAM4"
+                      - cell "Test4":
+                        - link "Test4":
+                          - /url: index.php?module=Campaigns&parenttab=Marketing&action=DetailView&record=42
+                      - cell "--None--"
+                      - cell "--None--"
+                      - cell "0"
+                      - cell "2025-06-02"
+                      - cell "admin"
+                      - cell "edit | del":
+                        - link "edit":
+                          - /url: index.php?module=Campaigns&action=EditView&record=42&return_module=Campaigns&return_action=index&parenttab=Marketing&return_viewname=29
+                        - text: "|"
+                        - link "del":
+                          - /url: javascript:confirmdelete("index.php%3Fmodule%3DCampaigns%26action%3DDelete%26record%3D42%26return_module%3DCampaigns%26return_action%3Dindex%26parenttab%3DMarketing%26return_viewname%3D29")
+                    - row "CAM3 Test2 --None-- --None-- 0 2025-06-02 admin edit | del":
+                      - cell:
+                        - checkbox
+                      - cell "CAM3"
+                      - cell "Test2":
+                        - link "Test2":
+                          - /url: index.php?module=Campaigns&parenttab=Marketing&action=DetailView&record=41
+                      - cell "--None--"
+                      - cell "--None--"
+                      - cell "0"
+                      - cell "2025-06-02"
+                      - cell "admin"
+                      - cell "edit | del":
+                        - link "edit":
+                          - /url: index.php?module=Campaigns&action=EditView&record=41&return_module=Campaigns&return_action=index&parenttab=Marketing&return_viewname=29
+                        - text: "|"
+                        - link "del":
+                          - /url: javascript:confirmdelete("index.php%3Fmodule%3DCampaigns%26action%3DDelete%26record%3D41%26return_module%3DCampaigns%26return_action%3Dindex%26parenttab%3DMarketing%26return_viewname%3D29")
+                    - row "CAM2 Test1 --None-- --None-- 0 2025-06-02 admin edit | del":
+                      - cell:
+                        - checkbox
+                      - cell "CAM2"
+                      - cell "Test1":
+                        - link "Test1":
+                          - /url: index.php?module=Campaigns&parenttab=Marketing&action=DetailView&record=40
+                      - cell "--None--"
+                      - cell "--None--"
+                      - cell "0"
+                      - cell "2025-06-02"
+                      - cell "admin"
+                      - cell "edit | del":
+                        - link "edit":
+                          - /url: index.php?module=Campaigns&action=EditView&record=40&return_module=Campaigns&return_action=index&parenttab=Marketing&return_viewname=29
+                        - text: "|"
+                        - link "del":
+                          - /url: javascript:confirmdelete("index.php%3Fmodule%3DCampaigns%26action%3DDelete%26record%3D40%26return_module%3DCampaigns%26return_action%3Dindex%26parenttab%3DMarketing%26return_viewname%3D29")
+                    - row "CAM1 Test --None-- --None-- 0 2025-06-02 admin edit | del":
+                      - cell:
+                        - checkbox
+                      - cell "CAM1"
+                      - cell "Test":
+                        - link "Test":
+                          - /url: index.php?module=Campaigns&parenttab=Marketing&action=DetailView&record=39
+                      - cell "--None--"
+                      - cell "--None--"
+                      - cell "0"
+                      - cell "2025-06-02"
+                      - cell "admin"
+                      - cell "edit | del":
+                        - link "edit":
+                          - /url: index.php?module=Campaigns&action=EditView&record=39&return_module=Campaigns&return_action=index&parenttab=Marketing&return_viewname=29
+                        - text: "|"
+                        - link "del":
+                          - /url: javascript:confirmdelete("index.php%3Fmodule%3DCampaigns%26action%3DDelete%26record%3D39%26return_module%3DCampaigns%26return_action%3Dindex%26parenttab%3DMarketing%26return_viewname%3D29")
+                - table:
+                  - rowgroup:
+                    - row "Delete Mass Edit Showing Records 1 - 10 of 10 1 of 1":
+                      - cell "Delete Mass Edit":
+                        - button "Delete"
+                        - button "Mass Edit"
+                      - cell "Showing Records 1 - 10 of 10"
+                      - cell "1 of 1":
+                        - table:
+                          - rowgroup:
+                            - row "1 of 1":
+                              - cell "1 of 1":
+                                - img
+                                - img
+                                - textbox: "1"
+                                - text: of 1
+                                - img
+                                - img
+                      - cell:
+                        - table:
+                          - rowgroup:
+                            - row
+      - cell:
+        - img
+- table:
+  - rowgroup:
+    - row "vtiger CRM 5.2.1 © 2004-2025 vtiger.com | Read License | Privacy Policy":
+      - cell "vtiger CRM 5.2.1"
+      - cell "© 2004-2025 vtiger.com | Read License | Privacy Policy":
+        - text: © 2004-2025
+        - link "vtiger.com":
+          - /url: http://www.vtiger.com
+        - text: "|"
+        - link "Read License":
+          - /url: javascript:mypopup()
+        - text: "|"
+        - link "Privacy Policy":
+          - /url: http://www.vtiger.com/products/crm/privacy_policy.html
+```

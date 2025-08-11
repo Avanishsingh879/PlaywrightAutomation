@@ -1,0 +1,646 @@
+# Page snapshot
+
+```yaml
+- table:
+  - rowgroup:
+    - row "vtiger CRM Gmail Bookmarklet vtiger News Feedback My Preferences Help About Us Sign Out (admin)":
+      - cell "vtiger CRM":
+        - img "vtiger CRM"
+      - cell
+      - cell "Gmail Bookmarklet vtiger News Feedback My Preferences Help About Us Sign Out (admin)":
+        - table:
+          - rowgroup:
+            - row "Gmail Bookmarklet vtiger News Feedback My Preferences Help About Us Sign Out (admin)":
+              - cell "Gmail Bookmarklet":
+                - link "Gmail Bookmarklet":
+                  - /url: javascript:(function()%7Bvar%20doc=top.document;var%20bodyElement=document.body;doc.vtigerURL%20=%22http://localhost:8888/%22;var%20scriptElement=document.createElement(%22script%22);scriptElement.type=%22text/javascript%22;scriptElement.src=doc.vtigerURL+%22modules/Emails/GmailBookmarkletTrigger.js%22;bodyElement.appendChild(scriptElement);%7D)();
+              - cell "vtiger News":
+                - link "vtiger News":
+                  - /url: javascript:void(0);
+              - cell "Feedback":
+                - link "Feedback":
+                  - /url: javascript:void(0);
+              - cell "My Preferences":
+                - link "My Preferences":
+                  - /url: index.php?module=Users&action=DetailView&record=1&modechk=prefview
+              - cell "Help":
+                - link "Help":
+                  - /url: http://wiki.vtiger.com/index.php/Main_Page
+              - cell "About Us":
+                - link "About Us":
+                  - /url: javascript:;
+              - cell "Sign Out (admin)":
+                - link "Sign Out":
+                  - /url: index.php?module=Users&action=Logout
+                - text: (admin)
+- table:
+  - rowgroup:
+    - row "My Home Page Marketing Sales Support Analytics Inventory Tools Settings Quick Create... Search... Find":
+      - cell
+      - cell "My Home Page Marketing Sales Support Analytics Inventory Tools Settings Quick Create...":
+        - table:
+          - rowgroup:
+            - row "My Home Page Marketing Sales Support Analytics Inventory Tools Settings Quick Create...":
+              - cell:
+                - img
+              - cell "My Home Page":
+                - link "My Home Page":
+                  - /url: index.php?module=Home&action=index&parenttab=My Home Page
+                - img
+              - cell:
+                - img
+              - cell "Marketing":
+                - link "Marketing":
+                  - /url: index.php?module=Campaigns&action=index&parenttab=Marketing
+                - img
+              - cell:
+                - img
+              - cell "Sales":
+                - link "Sales":
+                  - /url: index.php?module=Leads&action=index&parenttab=Sales
+                - img
+              - cell:
+                - img
+              - cell "Support":
+                - link "Support":
+                  - /url: index.php?module=HelpDesk&action=index&parenttab=Support
+                - img
+              - cell:
+                - img
+              - cell "Analytics":
+                - link "Analytics":
+                  - /url: index.php?module=Reports&action=index&parenttab=Analytics
+                - img
+              - cell:
+                - img
+              - cell "Inventory":
+                - link "Inventory":
+                  - /url: index.php?module=Products&action=index&parenttab=Inventory
+                - img
+              - cell:
+                - img
+              - cell "Tools":
+                - link "Tools":
+                  - /url: index.php?module=Rss&action=index&parenttab=Tools
+                - img
+              - cell:
+                - img
+              - cell "Settings":
+                - link "Settings":
+                  - /url: index.php?module=Settings&action=index&parenttab=Settings
+                - img
+              - cell:
+                - img
+              - cell "Quick Create...":
+                - combobox:
+                  - option "Quick Create..." [selected]
+                  - option "New Account"
+                  - option "New Asset"
+                  - option "New To Do"
+                  - option "New Campaign"
+                  - option "New Comment"
+                  - option "New Contact"
+                  - option "New Document"
+                  - option "New Event"
+                  - option "New Ticket"
+                  - option "New Lead"
+                  - option "New Potential"
+                  - option "New PriceBook"
+                  - option "New Product"
+                  - option "New Project"
+                  - option "New Project Milestone"
+                  - option "New Project Task"
+                  - option "New Service Contract"
+                  - option "New Service"
+                  - option "New Vendor"
+      - cell "Search... Find":
+        - table:
+          - rowgroup:
+            - row "Search... Find":
+              - cell "Search...":
+                - link:
+                  - /url: javascript:void(0);
+                  - img
+                - textbox: Search...
+              - cell "Find":
+                - button "Find"
+- table:
+  - rowgroup:
+    - row "RSS Our Sites Documents PBX Manager Comments Recycle Bin SMSNotifier":
+      - cell "RSS Our Sites Documents PBX Manager Comments Recycle Bin SMSNotifier":
+        - table:
+          - rowgroup:
+            - row "RSS Our Sites Documents PBX Manager Comments Recycle Bin SMSNotifier":
+              - cell "RSS":
+                - link "RSS":
+                  - /url: index.php?module=Rss&action=index&parenttab=Tools
+              - cell "Our Sites":
+                - link "Our Sites":
+                  - /url: index.php?module=Portal&action=index&parenttab=Tools
+              - cell "Documents":
+                - link "Documents":
+                  - /url: index.php?module=Documents&action=index&parenttab=Tools
+              - cell "PBX Manager":
+                - link "PBX Manager":
+                  - /url: index.php?module=PBXManager&action=index&parenttab=Tools
+              - cell "Comments":
+                - link "Comments":
+                  - /url: index.php?module=ModComments&action=index&parenttab=Tools
+              - cell "Recycle Bin":
+                - link "Recycle Bin":
+                  - /url: index.php?module=RecycleBin&action=index&parenttab=Tools
+              - cell "SMSNotifier":
+                - link "SMSNotifier":
+                  - /url: index.php?module=SMSNotifier&action=index&parenttab=Tools
+- table:
+  - rowgroup:
+    - row:
+      - cell
+    - row "Tools > Documents Create Document... Search in Documents... Open Calendar... Show World Clock... Open Calculator... Chat... Last Viewed Export Documents Open All Menu... Documents Settings":
+      - cell "Tools > Documents":
+        - text: Tools >
+        - link "Documents":
+          - /url: index.php?action=ListView&module=Documents&parenttab=Tools
+      - cell "Create Document... Search in Documents... Open Calendar... Show World Clock... Open Calculator... Chat... Last Viewed Export Documents Open All Menu... Documents Settings":
+        - table:
+          - rowgroup:
+            - row "Create Document... Search in Documents... Open Calendar... Show World Clock... Open Calculator... Chat... Last Viewed Export Documents Open All Menu... Documents Settings":
+              - cell
+              - cell "Create Document... Search in Documents...":
+                - table:
+                  - rowgroup:
+                    - row "Create Document... Search in Documents...":
+                      - cell "Create Document... Search in Documents...":
+                        - table:
+                          - rowgroup:
+                            - row "Create Document... Search in Documents...":
+                              - cell "Create Document...":
+                                - link "Create Document...":
+                                  - /url: index.php?module=Documents&action=EditView&return_action=DetailView&parenttab=Tools
+                                  - img "Create Document..."
+                              - cell "Search in Documents...":
+                                - link "Search in Documents...":
+                                  - /url: javascript:;
+                                  - img "Search in Documents..."
+              - cell
+              - cell "Open Calendar... Show World Clock... Open Calculator... Chat... Last Viewed":
+                - table:
+                  - rowgroup:
+                    - row "Open Calendar... Show World Clock... Open Calculator... Chat... Last Viewed":
+                      - cell "Open Calendar...":
+                        - link "Open Calendar...":
+                          - /url: javascript:;
+                          - img "Open Calendar..."
+                      - cell "Show World Clock...":
+                        - link "Show World Clock...":
+                          - /url: javascript:;
+                          - img "Show World Clock..."
+                      - cell "Open Calculator...":
+                        - link "Open Calculator...":
+                          - /url: "#"
+                          - img "Open Calculator..."
+                      - cell "Chat...":
+                        - link "Chat...":
+                          - /url: javascript:;
+                          - img "Chat..."
+                      - cell "Last Viewed":
+                        - img "Last Viewed"
+              - cell
+              - cell "Export Documents":
+                - table:
+                  - rowgroup:
+                    - row "Export Documents":
+                      - cell:
+                        - img
+                      - cell "Export Documents":
+                        - link "Export Documents":
+                          - /url: javascript:void(0)
+                          - img "Export Documents"
+                      - cell:
+                        - img
+              - cell
+              - cell "Open All Menu... Documents Settings":
+                - table:
+                  - rowgroup:
+                    - row "Open All Menu... Documents Settings":
+                      - cell "Open All Menu...":
+                        - link "Open All Menu...":
+                          - /url: javascript:;
+                          - img "Open All Menu..."
+                      - cell "Documents Settings":
+                        - link "Documents Settings":
+                          - /url: index.php?module=Settings&action=ModuleManager&module_settings=true&formodule=Documents&parenttab=Settings
+                          - img "Documents Settings"
+    - row:
+      - cell
+- table:
+  - rowgroup:
+    - row:
+      - cell:
+        - img
+      - cell:
+        - table:
+          - rowgroup:
+            - row "Search Go to Advanced Search Search for In Document No Search Now [x]":
+              - cell "Search Go to Advanced Search":
+                - text: Search
+                - link "Go to Advanced Search":
+                  - /url: "#"
+              - cell "Search for"
+              - cell:
+                - textbox
+              - cell "In"
+              - cell "Document No":
+                - combobox:
+                  - option "Document No" [selected]
+                  - option "Title"
+                  - option "File Name"
+                  - option "Modified Time"
+                  - option "Assigned To"
+                  - option "Download Type"
+                  - option "Active"
+              - cell "Search Now":
+                - button "Search Now"
+              - cell "[x]"
+            - row "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z":
+              - cell "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z":
+                - table:
+                  - rowgroup:
+                    - row "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z":
+                      - cell "A"
+                      - cell "B"
+                      - cell "C"
+                      - cell "D"
+                      - cell "E"
+                      - cell "F"
+                      - cell "G"
+                      - cell "H"
+                      - cell "I"
+                      - cell "J"
+                      - cell "K"
+                      - cell "L"
+                      - cell "M"
+                      - cell "N"
+                      - cell "O"
+                      - cell "P"
+                      - cell "Q"
+                      - cell "R"
+                      - cell "S"
+                      - cell "T"
+                      - cell "U"
+                      - cell "V"
+                      - cell "W"
+                      - cell "X"
+                      - cell "Y"
+                      - cell "Z"
+        - table:
+          - rowgroup:
+            - row:
+              - cell:
+                - table:
+                  - rowgroup:
+                    - 'row "Delete Move Add Folder Filters : All New | Edit | Delete"':
+                      - cell "Delete Move Add Folder":
+                        - table:
+                          - rowgroup:
+                            - row "Delete Move Add Folder":
+                              - cell "Delete":
+                                - button "Delete"
+                              - cell "Move":
+                                - button "Move"
+                              - cell "Add Folder":
+                                - button "Add Folder"
+                      - 'cell "Filters : All New | Edit | Delete"':
+                        - table:
+                          - rowgroup:
+                            - 'row "Filters : All New | Edit | Delete"':
+                              - cell "Filters :"
+                              - cell "All":
+                                - combobox:
+                                  - option "All" [selected]
+                              - cell "New | Edit | Delete":
+                                - link "New":
+                                  - /url: index.php?module=Documents&action=CustomView&parenttab=Tools
+                                - text: "| Edit | Delete"
+                - table:
+                  - rowgroup:
+                    - row "Default [This is a Default Folder] Showing Records 1 - 6 of 6 1 of 1":
+                      - cell "Default [This is a Default Folder]"
+                      - cell "Showing Records 1 - 6 of 6"
+                      - cell "1 of 1":
+                        - img
+                        - img
+                        - textbox: "1"
+                        - text: of 1
+                        - img
+                        - img
+                    - row "Document No Title File Name Modified Time Assigned To Download Type Active Action DOC4 Test4 -- 2023-11-01 18:57:27 admin External yes edit | del DOC5 Test5 -- 2023-11-01 18:57:34 admin External yes edit | del DOC6 Test6 -- 2023-11-01 18:57:43 admin External yes edit | del DOC7 Testdata -- 2023-12-24 18:13:48 Support Group External yes edit | del | DOC8 TestDocs -- 2023-12-24 19:16:40 admin External yes edit | del DOC9 Test -- 2024-01-23 08:43:28 admin External no edit | del":
+                      - cell "Document No Title File Name Modified Time Assigned To Download Type Active Action DOC4 Test4 -- 2023-11-01 18:57:27 admin External yes edit | del DOC5 Test5 -- 2023-11-01 18:57:34 admin External yes edit | del DOC6 Test6 -- 2023-11-01 18:57:43 admin External yes edit | del DOC7 Testdata -- 2023-12-24 18:13:48 Support Group External yes edit | del | DOC8 TestDocs -- 2023-12-24 19:16:40 admin External yes edit | del DOC9 Test -- 2024-01-23 08:43:28 admin External no edit | del":
+                        - table:
+                          - rowgroup:
+                            - row "Document No Title File Name Modified Time Assigned To Download Type Active Action":
+                              - cell:
+                                - checkbox [checked]
+                              - cell "Document No":
+                                - link "Document No":
+                                  - /url: javascript:;
+                              - cell "Title":
+                                - link "Title":
+                                  - /url: javascript:;
+                              - cell "File Name":
+                                - link "File Name":
+                                  - /url: javascript:;
+                              - cell "Modified Time":
+                                - link "Modified Time":
+                                  - /url: javascript:;
+                              - cell "Assigned To":
+                                - link "Assigned To":
+                                  - /url: javascript:;
+                              - cell "Download Type":
+                                - link "Download Type":
+                                  - /url: javascript:;
+                              - cell "Active":
+                                - link "Active":
+                                  - /url: javascript:;
+                              - cell "Action"
+                            - row "DOC4 Test4 -- 2023-11-01 18:57:27 admin External yes edit | del":
+                              - cell:
+                                - checkbox [checked]
+                              - cell "DOC4"
+                              - cell "Test4":
+                                - link "Test4":
+                                  - /url: index.php?module=Documents&parenttab=Tools&action=DetailView&record=13
+                              - cell "--"
+                              - cell "2023-11-01 18:57:27"
+                              - cell "admin"
+                              - cell "External"
+                              - cell "yes"
+                              - cell "edit | del":
+                                - link "edit":
+                                  - /url: index.php?module=Documents&action=EditView&record=13&return_module=Documents&return_action=index&parenttab=Tools&return_viewname=22
+                                - text: "|"
+                                - link "del":
+                                  - /url: javascript:confirmdelete("index.php%3Fmodule%3DDocuments%26action%3DDelete%26record%3D13%26return_module%3DDocuments%26return_action%3Dindex%26parenttab%3DTools%26return_viewname%3D22")
+                            - row "DOC5 Test5 -- 2023-11-01 18:57:34 admin External yes edit | del":
+                              - cell:
+                                - checkbox [checked]
+                              - cell "DOC5"
+                              - cell "Test5":
+                                - link "Test5":
+                                  - /url: index.php?module=Documents&parenttab=Tools&action=DetailView&record=14
+                              - cell "--"
+                              - cell "2023-11-01 18:57:34"
+                              - cell "admin"
+                              - cell "External"
+                              - cell "yes"
+                              - cell "edit | del":
+                                - link "edit":
+                                  - /url: index.php?module=Documents&action=EditView&record=14&return_module=Documents&return_action=index&parenttab=Tools&return_viewname=22
+                                - text: "|"
+                                - link "del":
+                                  - /url: javascript:confirmdelete("index.php%3Fmodule%3DDocuments%26action%3DDelete%26record%3D14%26return_module%3DDocuments%26return_action%3Dindex%26parenttab%3DTools%26return_viewname%3D22")
+                            - row "DOC6 Test6 -- 2023-11-01 18:57:43 admin External yes edit | del":
+                              - cell:
+                                - checkbox [checked]
+                              - cell "DOC6"
+                              - cell "Test6":
+                                - link "Test6":
+                                  - /url: index.php?module=Documents&parenttab=Tools&action=DetailView&record=15
+                              - cell "--"
+                              - cell "2023-11-01 18:57:43"
+                              - cell "admin"
+                              - cell "External"
+                              - cell "yes"
+                              - cell "edit | del":
+                                - link "edit":
+                                  - /url: index.php?module=Documents&action=EditView&record=15&return_module=Documents&return_action=index&parenttab=Tools&return_viewname=22
+                                - text: "|"
+                                - link "del":
+                                  - /url: javascript:confirmdelete("index.php%3Fmodule%3DDocuments%26action%3DDelete%26record%3D15%26return_module%3DDocuments%26return_action%3Dindex%26parenttab%3DTools%26return_viewname%3D22")
+                            - row "DOC7 Testdata -- 2023-12-24 18:13:48 Support Group External yes edit | del |":
+                              - cell:
+                                - checkbox [checked]
+                              - cell "DOC7"
+                              - cell "Testdata":
+                                - link "Testdata":
+                                  - /url: index.php?module=Documents&parenttab=Tools&action=DetailView&record=25
+                              - cell "--"
+                              - cell "2023-12-24 18:13:48"
+                              - cell "Support Group"
+                              - cell "External"
+                              - cell "yes"
+                              - cell "edit | del |":
+                                - link "edit":
+                                  - /url: index.php?module=Documents&action=EditView&record=25&return_module=Documents&return_action=index&parenttab=Tools&return_viewname=22
+                                - text: "|"
+                                - link "del":
+                                  - /url: javascript:confirmdelete("index.php%3Fmodule%3DDocuments%26action%3DDelete%26record%3D25%26return_module%3DDocuments%26return_action%3Dindex%26parenttab%3DTools%26return_viewname%3D22")
+                                - text: "|"
+                                - img
+                            - row "DOC8 TestDocs -- 2023-12-24 19:16:40 admin External yes edit | del":
+                              - cell:
+                                - checkbox [checked]
+                              - cell "DOC8"
+                              - cell "TestDocs":
+                                - link "TestDocs":
+                                  - /url: index.php?module=Documents&parenttab=Tools&action=DetailView&record=26
+                              - cell "--"
+                              - cell "2023-12-24 19:16:40"
+                              - cell "admin"
+                              - cell "External"
+                              - cell "yes"
+                              - cell "edit | del":
+                                - link "edit":
+                                  - /url: index.php?module=Documents&action=EditView&record=26&return_module=Documents&return_action=index&parenttab=Tools&return_viewname=22
+                                - text: "|"
+                                - link "del":
+                                  - /url: javascript:confirmdelete("index.php%3Fmodule%3DDocuments%26action%3DDelete%26record%3D26%26return_module%3DDocuments%26return_action%3Dindex%26parenttab%3DTools%26return_viewname%3D22")
+                            - row "DOC9 Test -- 2024-01-23 08:43:28 admin External no edit | del":
+                              - cell:
+                                - checkbox [checked]
+                              - cell "DOC9"
+                              - cell "Test":
+                                - link "Test":
+                                  - /url: index.php?module=Documents&parenttab=Tools&action=DetailView&record=27
+                              - cell "--"
+                              - cell "2024-01-23 08:43:28"
+                              - cell "admin"
+                              - cell "External"
+                              - cell "no"
+                              - cell "edit | del":
+                                - link "edit":
+                                  - /url: index.php?module=Documents&action=EditView&record=27&return_module=Documents&return_action=index&parenttab=Tools&return_viewname=22
+                                - text: "|"
+                                - link "del":
+                                  - /url: javascript:confirmdelete("index.php%3Fmodule%3DDocuments%26action%3DDelete%26record%3D27%26return_module%3DDocuments%26return_action%3Dindex%26parenttab%3DTools%26return_viewname%3D22")
+                - table:
+                  - rowgroup:
+                    - row "Test [test] Showing Records 1 - 1 of 1 1 of 1":
+                      - cell "Test [test]"
+                      - cell "Showing Records 1 - 1 of 1"
+                      - cell "1 of 1":
+                        - img
+                        - img
+                        - textbox: "1"
+                        - text: of 1
+                        - img
+                        - img
+                    - row "Document No Title File Name Modified Time Assigned To Download Type Active Action DOC2 Test1 -- 2023-11-01 18:57:09 admin External yes edit | del":
+                      - cell "Document No Title File Name Modified Time Assigned To Download Type Active Action DOC2 Test1 -- 2023-11-01 18:57:09 admin External yes edit | del":
+                        - table:
+                          - rowgroup:
+                            - row "Document No Title File Name Modified Time Assigned To Download Type Active Action":
+                              - cell:
+                                - checkbox
+                              - cell "Document No":
+                                - link "Document No":
+                                  - /url: javascript:;
+                              - cell "Title":
+                                - link "Title":
+                                  - /url: javascript:;
+                              - cell "File Name":
+                                - link "File Name":
+                                  - /url: javascript:;
+                              - cell "Modified Time":
+                                - link "Modified Time":
+                                  - /url: javascript:;
+                              - cell "Assigned To":
+                                - link "Assigned To":
+                                  - /url: javascript:;
+                              - cell "Download Type":
+                                - link "Download Type":
+                                  - /url: javascript:;
+                              - cell "Active":
+                                - link "Active":
+                                  - /url: javascript:;
+                              - cell "Action"
+                            - row "DOC2 Test1 -- 2023-11-01 18:57:09 admin External yes edit | del":
+                              - cell:
+                                - checkbox
+                              - cell "DOC2"
+                              - cell "Test1":
+                                - link "Test1":
+                                  - /url: index.php?module=Documents&parenttab=Tools&action=DetailView&record=11
+                              - cell "--"
+                              - cell "2023-11-01 18:57:09"
+                              - cell "admin"
+                              - cell "External"
+                              - cell "yes"
+                              - cell "edit | del":
+                                - link "edit":
+                                  - /url: index.php?module=Documents&action=EditView&record=11&return_module=Documents&return_action=index&parenttab=Tools&return_viewname=22
+                                - text: "|"
+                                - link "del":
+                                  - /url: javascript:confirmdelete("index.php%3Fmodule%3DDocuments%26action%3DDelete%26record%3D11%26return_module%3DDocuments%26return_action%3Dindex%26parenttab%3DTools%26return_viewname%3D22")
+                - table:
+                  - rowgroup:
+                    - row "abc [abc] Showing Records 1 - 3 of 3 1 of 1":
+                      - cell "abc [abc]"
+                      - cell "Showing Records 1 - 3 of 3"
+                      - cell "1 of 1":
+                        - img
+                        - img
+                        - textbox: "1"
+                        - text: of 1
+                        - img
+                        - img
+                    - row "Document No Title File Name Modified Time Assigned To Download Type Active Action DOC1 Test -- 2023-11-01 18:56:46 admin External yes edit | del DOC3 Test3 -- 2023-11-01 18:57:18 admin External yes edit | del DOC10 TesJava -- 2025-05-13 10:20:56 admin External yes edit | del":
+                      - cell "Document No Title File Name Modified Time Assigned To Download Type Active Action DOC1 Test -- 2023-11-01 18:56:46 admin External yes edit | del DOC3 Test3 -- 2023-11-01 18:57:18 admin External yes edit | del DOC10 TesJava -- 2025-05-13 10:20:56 admin External yes edit | del":
+                        - table:
+                          - rowgroup:
+                            - row "Document No Title File Name Modified Time Assigned To Download Type Active Action":
+                              - cell:
+                                - checkbox
+                              - cell "Document No":
+                                - link "Document No":
+                                  - /url: javascript:;
+                              - cell "Title":
+                                - link "Title":
+                                  - /url: javascript:;
+                              - cell "File Name":
+                                - link "File Name":
+                                  - /url: javascript:;
+                              - cell "Modified Time":
+                                - link "Modified Time":
+                                  - /url: javascript:;
+                              - cell "Assigned To":
+                                - link "Assigned To":
+                                  - /url: javascript:;
+                              - cell "Download Type":
+                                - link "Download Type":
+                                  - /url: javascript:;
+                              - cell "Active":
+                                - link "Active":
+                                  - /url: javascript:;
+                              - cell "Action"
+                            - row "DOC1 Test -- 2023-11-01 18:56:46 admin External yes edit | del":
+                              - cell:
+                                - checkbox
+                              - cell "DOC1"
+                              - cell "Test":
+                                - link "Test":
+                                  - /url: index.php?module=Documents&parenttab=Tools&action=DetailView&record=10
+                              - cell "--"
+                              - cell "2023-11-01 18:56:46"
+                              - cell "admin"
+                              - cell "External"
+                              - cell "yes"
+                              - cell "edit | del":
+                                - link "edit":
+                                  - /url: index.php?module=Documents&action=EditView&record=10&return_module=Documents&return_action=index&parenttab=Tools&return_viewname=22
+                                - text: "|"
+                                - link "del":
+                                  - /url: javascript:confirmdelete("index.php%3Fmodule%3DDocuments%26action%3DDelete%26record%3D10%26return_module%3DDocuments%26return_action%3Dindex%26parenttab%3DTools%26return_viewname%3D22")
+                            - row "DOC3 Test3 -- 2023-11-01 18:57:18 admin External yes edit | del":
+                              - cell:
+                                - checkbox
+                              - cell "DOC3"
+                              - cell "Test3":
+                                - link "Test3":
+                                  - /url: index.php?module=Documents&parenttab=Tools&action=DetailView&record=12
+                              - cell "--"
+                              - cell "2023-11-01 18:57:18"
+                              - cell "admin"
+                              - cell "External"
+                              - cell "yes"
+                              - cell "edit | del":
+                                - link "edit":
+                                  - /url: index.php?module=Documents&action=EditView&record=12&return_module=Documents&return_action=index&parenttab=Tools&return_viewname=22
+                                - text: "|"
+                                - link "del":
+                                  - /url: javascript:confirmdelete("index.php%3Fmodule%3DDocuments%26action%3DDelete%26record%3D12%26return_module%3DDocuments%26return_action%3Dindex%26parenttab%3DTools%26return_viewname%3D22")
+                            - row "DOC10 TesJava -- 2025-05-13 10:20:56 admin External yes edit | del":
+                              - cell:
+                                - checkbox
+                              - cell "DOC10"
+                              - cell "TesJava":
+                                - link "TesJava":
+                                  - /url: index.php?module=Documents&parenttab=Tools&action=DetailView&record=30
+                              - cell "--"
+                              - cell "2025-05-13 10:20:56"
+                              - cell "admin"
+                              - cell "External"
+                              - cell "yes"
+                              - cell "edit | del":
+                                - link "edit":
+                                  - /url: index.php?module=Documents&action=EditView&record=30&return_module=Documents&return_action=index&parenttab=Tools&return_viewname=22
+                                - text: "|"
+                                - link "del":
+                                  - /url: javascript:confirmdelete("index.php%3Fmodule%3DDocuments%26action%3DDelete%26record%3D30%26return_module%3DDocuments%26return_action%3Dindex%26parenttab%3DTools%26return_viewname%3D22")
+      - cell:
+        - img
+- table:
+  - rowgroup:
+    - row "vtiger CRM 5.2.1 © 2004-2025 vtiger.com | Read License | Privacy Policy":
+      - cell "vtiger CRM 5.2.1"
+      - cell "© 2004-2025 vtiger.com | Read License | Privacy Policy":
+        - text: © 2004-2025
+        - link "vtiger.com":
+          - /url: http://www.vtiger.com
+        - text: "|"
+        - link "Read License":
+          - /url: javascript:mypopup()
+        - text: "|"
+        - link "Privacy Policy":
+          - /url: http://www.vtiger.com/products/crm/privacy_policy.html
+```
