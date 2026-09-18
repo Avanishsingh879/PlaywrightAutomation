@@ -1,0 +1,50 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: HandleFrame1.spec.js >> Hanled hover
+- Location: tests\HandleFrame1.spec.js:5:5
+
+# Error details
+
+```
+Error: locator.scrollIntoViewIfNeeded: Target page, context or browser has been closed
+Call log:
+  - attempting scroll into view action
+    - waiting for element to be stable
+
+```
+
+# Test source
+
+```ts
+  1  | ////https://www.w3schools.com/js/
+  2  | 
+  3  | import{test,expect} from "@playwright/test"
+  4  | 
+  5  | test('Hanled hover',async({browser})=>{
+  6  | 
+  7  | 
+  8  |       const context=await browser.newContext({
+  9  | 
+  10 |         viewport:{width:1980,height:1020}
+  11 |        })
+  12 | 
+  13 |        const page=await context.newPage();
+  14 |        await page.goto("https://www.w3schools.com/js/");
+  15 |        const data=await page.locator("//a[text()='Try it Yourself »']");
+> 16 |        await data.scrollIntoViewIfNeeded();
+     |                   ^ Error: locator.scrollIntoViewIfNeeded: Target page, context or browser has been closed
+  17 |        await data.click();
+  18 |        await page.waitForTimeout(1000);
+  19 |        const[newPage]=Promise.all([context.waitForEvent('page'),page.locator("//a[text()='Try it Yourself »']").click()])
+  20 |        await newPage.locator("//h1[text()='My First JavaScript']//following-sibling::button").click();
+  21 |        await newPage.waitForEvent(1000);
+  22 |        await page.screenshot({path:'./Screenshots/newdata.png'});
+  23 | 
+  24 | })
+```

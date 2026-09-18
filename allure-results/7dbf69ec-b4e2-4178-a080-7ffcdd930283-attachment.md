@@ -1,0 +1,84 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: SecondTest.spec.js >> verifyTest
+- Location: tests\SecondTest.spec.js:3:5
+
+# Error details
+
+```
+Error: page.goto: Target page, context or browser has been closed
+Call log:
+  - navigating to "http://localhost:8888/", waiting until "load"
+
+```
+
+# Test source
+
+```ts
+  1  | import{test,expect}from '@playwright/test'
+  2  | 
+  3  | test('verifyTest', async ({ browser }) => {
+  4  | //Set viewport zise.
+  5  |   const context = await browser.newContext({
+  6  |     viewport: { width: 1920, height: 1080 }
+  7  |   });         
+  8  | 
+  9  |   
+  10 |   //Launch browser maximised.
+  11 |   const page = await context.newPage();
+  12 | 
+> 13 |   await page.goto('http://localhost:8888/');
+     |              ^ Error: page.goto: Target page, context or browser has been closed
+  14 |   
+  15 |   await page.locator("//input[@name='user_name']").fill('admin');
+  16 |   await page.locator("//input[@name='user_password']").fill('admin');
+  17 |   await page.locator("//input[@name='Login']").click();
+  18 |   //await page.waitForTimeout(5000);
+  19 |   await page.screenshot({ path: './FailScreenshot/screenshot1.png' });
+  20 | 
+  21 |     //const assert = require('assert');
+  22 |     //const title = await page.title();
+  23 |     //assert.strictEqual(title, 'admin - My Home Page - Home - vtiger CRM 5 - Commercial Open Source CRM');
+  24 |     //await expect(page).toHaveTitle(/Playwright/);
+  25 | 
+  26 |     await page.locator("//a[text()='Marketing']").hover()
+  27 |   
+  28 |     await page.locator("//div[@id='Marketing_sub']/table/tbody/tr[2]/td/a[text()='Accounts']").click();
+  29 |     test.setTimeout(60000);
+  30 |    //const checkboxes = page.locator("//input[@name='selected_id']");
+  31 |    const checkboxes = await page.$$("//input[@name='selected_id']");
+  32 |    for (const checkbox of checkboxes) {
+  33 |     if (!(await checkbox.isChecked())) {
+  34 |         await checkbox.check();
+  35 |     }
+  36 | }
+  37 | 
+  38 | 
+  39 | 
+  40 |     
+  41 | });
+  42 | 
+  43 | test('HomeTitle',async({page})=>{
+  44 |   
+  45 |   await page.goto('http://localhost:8888/');
+  46 |   await page.locator("//input[@name='user_name']").fill('admin');
+  47 |   await page.locator("//input[@name='user_password']").fill('admin');
+  48 |   await page.locator("//input[@name='Login']").click();
+  49 |   await page.waitForTimeout(2000);
+  50 |     //const assert = require('assert');
+  51 |     //const title = await page.title();
+  52 |     //assert.strictEqual(title, 'admin - My Home Page - Home - vtiger CRM 5 - Commercial Open Source CRM');
+  53 |     //await expect(page).toHaveTitle(/Playwright/);
+  54 | 
+  55 |     await expect(page).toHaveTitle(/admin - My Home Page - Home - vtiger CRM 5 - Commercial Open Source CRM/);
+  56 | 
+  57 | });
+  58 | 
+  59 | 
+```
