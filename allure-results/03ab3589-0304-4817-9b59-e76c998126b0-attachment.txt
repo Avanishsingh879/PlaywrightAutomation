@@ -1,7 +1,0 @@
-Login Sucessfully
-Promise {
-  <pending>,
-  [Symbol(async_id_symbol)]: 32005,
-  [Symbol(trigger_async_id_symbol)]: 28543,
-  [Symbol(kResourceStore)]: undefined
-}

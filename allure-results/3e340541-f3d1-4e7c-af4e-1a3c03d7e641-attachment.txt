@@ -1,0 +1,2 @@
+Launch Browser
+locator('iframe[name="iframeResult"]').contentFrame().locator('//h1[text()=\'My First JavaScript\']//following-sibling::button')

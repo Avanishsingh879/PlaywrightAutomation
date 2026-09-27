@@ -1,0 +1,2 @@
+Status: 200
+Response: { name: 'John Updated', email: 'john.updated@example.com', id: 1 }

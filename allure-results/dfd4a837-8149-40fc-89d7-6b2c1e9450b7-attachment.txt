@@ -1,2 +1,0 @@
-Title Verifyed
-[Function: getByText]

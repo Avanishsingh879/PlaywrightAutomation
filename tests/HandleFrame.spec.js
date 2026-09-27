@@ -1,41 +1,29 @@
+////https://www.w3schools.com/js/
+
+/////Hamdled Frame/////
+
 import{test,expect} from "@playwright/test"
 
-test('Verify Login Test',async({browser})=>{
+test("Verify Frame",async({browser})=>{
 
-        const context= await browser.newContext({
-           
-            viewport:{width:1980,height:1020}
+         const context=await browser.newContext({
 
-         });
+          viewport:{width:1980,height:1020}
+         })
 
          const page=await context.newPage();
-         await page.goto("http://localhost:8888/");
-         await page.locator("//input[@name='user_name']").fill("admin");
-         await page.locator("//input[@name='user_password']").fill("admin");
-         page.locator("//input[@name='Login']").click();
-         console.log("Login Sucessfully");
-         await expect(page).toHaveTitle("admin - My Home Page - Home - vtiger CRM 5 - Commercial Open Source CRM");
-         await page.screenshot({path:'./Screenshots/newfail.png'});
-
+         await page.goto("https://www.w3schools.com/js/");
+         console.log("Launch Browser");
+         await page.waitForTimeout(1000);
+         ///////ScrollDown/////////////////////
+         const tryButton=await page.locator("//a[text()='Try it Yourself »']");
+         const scrolldown=tryButton.scrollIntoViewIfNeeded();
+         ///////////Handle Multiple window////////////////////
+        const[newPage]=await Promise.all([context.waitForEvent('page'),page.locator("//a[text()='Try it Yourself »']").click()])
+        await newPage.waitForTimeout(1000);
+        const frame=newPage.frameLocator('iframe[name="iframeResult"]');
+        await frame.locator("//h1[text()='My First JavaScript']//following-sibling::button").click();
+        await frame.waitForTimeout(1000);
+        
 })
 
-test('verify Mouse Hover',async({page})=>{
-
-     await page.goto("http://localhost:8888/");
-     await page.locator("//input[@name='user_name']").fill("admin");
-     await page.locator("//input[@name='user_password']").fill("admin");
-     await page.locator("//input[@name='Login']").click();
-     console.log("Login Sucessfully");
-     await page.locator("//a[text()='Marketing']").hover();
-     const acc=await page.locator("//div[@id='Marketing_sub']//a[text()='Accounts']");
-     acc.click();
-     await page.waitForTimeout(1000);
-     const links=page.locator("//input[@name='selected_id']");
-
-     for(let i=0;i< await links.count();i++){
-
-          await links.nth(i).click();
-          page.waitForTimeout(1000);
-     }
-
-})

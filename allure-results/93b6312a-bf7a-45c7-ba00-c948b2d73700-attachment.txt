@@ -1,0 +1,7 @@
+Launch Browser
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 128644,
+  [Symbol(trigger_async_id_symbol)]: 128643,
+  [Symbol(kResourceStore)]: undefined
+}
